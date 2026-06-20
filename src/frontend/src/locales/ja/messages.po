@@ -8,7 +8,7 @@ msgstr ""
 "Language: ja\n"
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-06-17 22:14\n"
+"PO-Revision-Date: 2026-06-19 07:22\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -147,7 +147,7 @@ msgstr "いいえ"
 #: src/forms/StockForms.tsx:1248
 #: src/forms/TransferOrderForms.tsx:234
 #: src/pages/build/BuildDetail.tsx:260
-#: src/pages/part/PartDetail.tsx:1165
+#: src/pages/part/PartDetail.tsx:1166
 #: src/pages/part/bom/BomCompare.tsx:203
 #: src/tables/ColumnRenderers.tsx:93
 #: src/tables/build/BuildOrderParametricTable.tsx:29
@@ -166,7 +166,7 @@ msgstr "パーツ"
 #: src/pages/part/CategoryDetail.tsx:138
 #: src/pages/part/CategoryDetail.tsx:285
 #: src/pages/part/CategoryDetail.tsx:345
-#: src/pages/part/CategoryDetail.tsx:387
+#: src/pages/part/CategoryDetail.tsx:388
 #: src/pages/part/PartDetail.tsx:893
 msgid "Parts"
 msgstr "パーツ"
@@ -242,7 +242,7 @@ msgid "Manufacturer Parts"
 msgstr "メーカー・パーツ"
 
 #: lib/enums/ModelInformation.tsx:80
-#: src/pages/part/CategoryDetail.tsx:387
+#: src/pages/part/CategoryDetail.tsx:388
 #: src/tables/Filter.tsx:496
 msgid "Part Category"
 msgstr "パーツカテゴリ"
@@ -261,7 +261,7 @@ msgstr "パーツカテゴリ"
 #: src/forms/BuildForms.tsx:848
 #: src/forms/SalesOrderForms.tsx:438
 #: src/forms/TransferOrderForms.tsx:236
-#: src/pages/stock/StockDetail.tsx:1075
+#: src/pages/stock/StockDetail.tsx:1076
 #: src/tables/ColumnRenderers.tsx:132
 #: src/tables/part/PartTestResultTable.tsx:256
 #: src/tables/stock/InstalledItemsTable.tsx:66
@@ -283,7 +283,7 @@ msgstr "在庫商品"
 
 #: lib/enums/ModelInformation.tsx:99
 #: lib/enums/Roles.tsx:51
-#: src/pages/stock/LocationDetail.tsx:522
+#: src/pages/stock/LocationDetail.tsx:523
 msgid "Stock Location"
 msgstr "在庫場所"
 
@@ -644,7 +644,7 @@ msgstr "選択エントリ"
 #: src/components/importer/ImporterColumnSelector.tsx:330
 #: src/components/importer/ImporterDrawer.tsx:91
 #: src/components/modals/LicenseModal.tsx:85
-#: src/components/nav/NavigationTree.tsx:211
+#: src/components/nav/NavigationTree.tsx:398
 #: src/components/nav/NotificationDrawer.tsx:235
 #: src/components/nav/SearchDrawer.tsx:588
 #: src/components/settings/SettingList.tsx:145
@@ -723,6 +723,7 @@ msgstr "リクエストがタイムアウトしました"
 
 #: lib/hooks/MonitorDataOutput.tsx:57
 #: lib/hooks/MonitorDataOutput.tsx:116
+#: src/components/editors/TemplateEditor/PdfPreview/PdfPreview.tsx:76
 msgid "Process failed"
 msgstr "プロセス失敗"
 
@@ -1391,11 +1392,11 @@ msgstr "管理者権限が必要"
 msgid "This widget requires superuser permissions"
 msgstr "このウィジェットには管理者権限が必要です"
 
-#: src/components/dashboard/widgets/NewsWidget.tsx:133
+#: src/components/dashboard/widgets/NewsWidget.tsx:135
 msgid "No News"
 msgstr "ニュースなし"
 
-#: src/components/dashboard/widgets/NewsWidget.tsx:134
+#: src/components/dashboard/widgets/NewsWidget.tsx:136
 msgid "There are no unread news items"
 msgstr "未読のニュースはありません"
 
@@ -1655,7 +1656,7 @@ msgstr "コード"
 msgid "Error rendering preview"
 msgstr "プレビューの表示に失敗しました"
 
-#: src/components/editors/TemplateEditor/PdfPreview/PdfPreview.tsx:120
+#: src/components/editors/TemplateEditor/PdfPreview/PdfPreview.tsx:124
 msgid "Preview not available, click \"Reload Preview\"."
 msgstr "プレビューが表示されない場合は、「プレビューの再読み込み」をクリックしてください。"
 
@@ -1728,11 +1729,11 @@ msgstr "現在のテンプレートを保存し、プレビューを再読み込
 #~ msgid "to preview"
 #~ msgstr "to preview"
 
-#: src/components/editors/TemplateEditor/TemplateEditor.tsx:379
+#: src/components/editors/TemplateEditor/TemplateEditor.tsx:380
 msgid "Select instance to preview"
 msgstr "プレビューするインスタンスを選択"
 
-#: src/components/editors/TemplateEditor/TemplateEditor.tsx:423
+#: src/components/editors/TemplateEditor/TemplateEditor.tsx:424
 msgid "Error rendering template"
 msgstr "テンプレート描画エラー"
 
@@ -2128,6 +2129,7 @@ msgstr "未分類"
 
 #: src/components/forms/fields/IconField.tsx:211
 #: src/components/nav/Layout.tsx:143
+#: src/components/nav/NavigationTree.tsx:378
 #: src/tables/part/PartThumbTable.tsx:209
 msgid "Search..."
 msgstr "検索…"
@@ -2153,6 +2155,7 @@ msgid "Loading"
 msgstr "読み込み中"
 
 #: src/components/forms/fields/RelatedModelField.tsx:540
+#: src/components/nav/NavigationTree.tsx:403
 msgid "No results found"
 msgstr "一致するものが見つかりませんでした"
 
@@ -2925,7 +2928,7 @@ msgstr "ログアウト"
 #: src/pages/Index/Settings/SystemSettings.tsx:260
 #: src/pages/part/PartDetail.tsx:663
 #: src/pages/stock/LocationDetail.tsx:481
-#: src/pages/stock/LocationDetail.tsx:522
+#: src/pages/stock/LocationDetail.tsx:523
 #: src/pages/stock/StockDetail.tsx:689
 #: src/pages/stock/TransferOrderDetail.tsx:536
 #: src/tables/stock/StockItemTable.tsx:81
@@ -2971,7 +2974,11 @@ msgstr "ナビゲーション"
 msgid "About"
 msgstr "概要"
 
-#: src/components/nav/NavigationTree.tsx:212
+#: src/components/nav/NavigationTree.tsx:388
+msgid "Clear search"
+msgstr ""
+
+#: src/components/nav/NavigationTree.tsx:399
 msgid "Error loading navigation tree."
 msgstr "ナビゲーションツリーの読み込み中にエラーが発生しました。"
 
@@ -8347,11 +8354,11 @@ msgstr "シリアル番号で検索"
 msgid "Part Actions"
 msgstr "パートアクション"
 
-#: src/pages/part/PartDetail.tsx:1182
+#: src/pages/part/PartDetail.tsx:1183
 msgid "Part locked"
 msgstr ""
 
-#: src/pages/part/PartDetail.tsx:1182
+#: src/pages/part/PartDetail.tsx:1183
 msgid "Part unlocked"
 msgstr ""
 

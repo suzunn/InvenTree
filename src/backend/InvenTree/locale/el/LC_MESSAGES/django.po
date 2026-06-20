@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-17 22:11+0000\n"
-"PO-Revision-Date: 2026-06-17 22:14\n"
+"POT-Creation-Date: 2026-06-20 01:01+0000\n"
+"PO-Revision-Date: 2026-06-20 01:03\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -17,39 +17,39 @@ msgstr ""
 "X-Crowdin-File: /src/backend/InvenTree/locale/en/LC_MESSAGES/django.po\n"
 "X-Crowdin-File-ID: 250\n"
 
-#: InvenTree/api.py:368
+#: InvenTree/api.py:369
 msgid "API endpoint not found"
 msgstr "Το API endpoint δε βρέθηκε"
 
-#: InvenTree/api.py:441
+#: InvenTree/api.py:442
 msgid "List of items must be provided for bulk operation"
 msgstr ""
 
-#: InvenTree/api.py:448
+#: InvenTree/api.py:449
 msgid "Items must be provided as a list"
 msgstr "Τα Προϊόντα πρέπει να δοθούν ως λίστα"
 
-#: InvenTree/api.py:456
+#: InvenTree/api.py:457
 msgid "Invalid items list provided"
 msgstr "Η λίστα Προϊόντων που δόθηκε δεν είναι έγκυρη"
 
-#: InvenTree/api.py:461
+#: InvenTree/api.py:462
 msgid "All filter must only be used with true"
 msgstr "Το φίλτρο all πρέπει να χρησιμοποιείται μόνο με τιμή true"
 
-#: InvenTree/api.py:466
+#: InvenTree/api.py:467
 msgid "No items match the provided criteria"
 msgstr "Κανένα Aντικείμενο δεν ταιριάζει στα κριτήρια που δόθηκαν"
 
-#: InvenTree/api.py:490
+#: InvenTree/api.py:491
 msgid "No data provided"
 msgstr "Δεν δόθηκαν δεδομένα"
 
-#: InvenTree/api.py:506
+#: InvenTree/api.py:507
 msgid "This field must be unique."
 msgstr "Αυτό το πεδίο πρέπει να είναι μοναδικό."
 
-#: InvenTree/api.py:835
+#: InvenTree/api.py:836
 msgid "User does not have permission to view this model"
 msgstr "Δεν έχετε δικαιώματα να το δείτε αυτό"
 
@@ -110,17 +110,17 @@ msgstr "Μη έγκυρη δεκαδική τιμή"
 #: order/models.py:2037
 #: report/templates/report/inventree_build_order_report.html:172
 #: stock/models.py:3063 stock/models.py:3187 stock/serializers.py:749
-#: stock/serializers.py:925 stock/serializers.py:1067 stock/serializers.py:1440
-#: stock/serializers.py:1529 stock/serializers.py:1728
+#: stock/serializers.py:925 stock/serializers.py:1067 stock/serializers.py:1451
+#: stock/serializers.py:1540 stock/serializers.py:1739
 msgid "Notes"
 msgstr "Σημειώσεις"
 
-#: InvenTree/format.py:166
+#: InvenTree/format.py:159
 #, python-brace-format
 msgid "Value '{name}' does not appear in pattern format"
 msgstr "Η τιμή '{name}' δεν εμφανίζεται σε μορφή μοτίβου"
 
-#: InvenTree/format.py:177
+#: InvenTree/format.py:170
 msgid "Provided value does not match required pattern: "
 msgstr "Η παρεχόμενη τιμή δεν ταιριάζει με το απαιτούμενο απαραραίητη μοτίβο: "
 
@@ -164,51 +164,51 @@ msgstr "Αφαιρέστε τα HTML tags από την τιμή που εισά
 msgid "Data contains prohibited markdown content"
 msgstr "Τα δεδομένα περιέχουν απαγορευμένο περιεχόμενο markdown"
 
-#: InvenTree/helpers_model.py:109
+#: InvenTree/helpers_model.py:104
 msgid "Invalid URL: no hostname"
 msgstr ""
 
-#: InvenTree/helpers_model.py:114
+#: InvenTree/helpers_model.py:109
 msgid "Invalid URL: hostname could not be resolved"
 msgstr ""
 
-#: InvenTree/helpers_model.py:120
+#: InvenTree/helpers_model.py:115
 msgid "URL points to a private or reserved IP address"
 msgstr ""
 
-#: InvenTree/helpers_model.py:197
+#: InvenTree/helpers_model.py:192
 msgid "Too many redirects"
 msgstr ""
 
-#: InvenTree/helpers_model.py:202
+#: InvenTree/helpers_model.py:197
 msgid "Connection error"
 msgstr "Σφάλμα σύνδεσης"
 
-#: InvenTree/helpers_model.py:207 InvenTree/helpers_model.py:216
+#: InvenTree/helpers_model.py:202 InvenTree/helpers_model.py:211
 msgid "Server responded with invalid status code"
 msgstr "Ο διακομιστής απάντησε με μη έγκυρο κωδικό κατάστασης"
 
-#: InvenTree/helpers_model.py:212
+#: InvenTree/helpers_model.py:207
 msgid "Exception occurred"
 msgstr "Προέκυψε σφάλμα"
 
-#: InvenTree/helpers_model.py:222
+#: InvenTree/helpers_model.py:217
 msgid "Server responded with invalid Content-Length value"
 msgstr "Ο διακομιστής ανταποκρίθηκε με \"Invalid Content-Length value\""
 
-#: InvenTree/helpers_model.py:225
+#: InvenTree/helpers_model.py:220
 msgid "Image size is too large"
 msgstr "Η εικόνα είναι πολύ μεγάλη σε μέγεθος"
 
-#: InvenTree/helpers_model.py:237
+#: InvenTree/helpers_model.py:232
 msgid "Image download exceeded maximum size"
 msgstr "Η λήψη εικόνας ξεπέρασε το μέγιστο μέγεθος"
 
-#: InvenTree/helpers_model.py:242
+#: InvenTree/helpers_model.py:237
 msgid "Remote server returned empty response"
 msgstr "Ο διακομιστής επέστρεψε σφάλμα %1$d %2$s"
 
-#: InvenTree/helpers_model.py:250
+#: InvenTree/helpers_model.py:245
 msgid "Supplied URL is not a valid image file"
 msgstr "Το URL δεν είναι έγκυρο αρχείο εικόνας"
 
@@ -272,15 +272,15 @@ msgstr "Μη έγκυρη επιλογή"
 #: common/models.py:2303 common/models.py:2428 common/models.py:2725
 #: common/serializers.py:672 generic/states/serializers.py:20
 #: machine/models.py:25 part/models.py:1106 plugin/models.py:54
-#: report/models.py:221 stock/models.py:87
+#: report/models.py:222 stock/models.py:87
 msgid "Name"
 msgstr "Όνομα"
 
 #: InvenTree/models.py:1045 build/models.py:265 common/models.py:180
 #: common/models.py:2435 common/models.py:2576 common/models.py:2740
 #: company/models.py:559 company/models.py:815 order/models.py:487
-#: order/models.py:2082 part/models.py:1129 report/models.py:227
-#: report/models.py:858 report/models.py:884
+#: order/models.py:2082 part/models.py:1129 report/models.py:228
+#: report/models.py:872 report/models.py:898
 #: report/templates/report/inventree_build_order_report.html:117
 #: stock/models.py:93
 msgid "Description"
@@ -345,7 +345,7 @@ msgstr "Πρέπει να είναι αριθμός"
 msgid "Currency"
 msgstr "Νόμισμα"
 
-#: InvenTree/serializers.py:408 part/serializers.py:1407
+#: InvenTree/serializers.py:408 part/serializers.py:1418
 msgid "Select currency from available options"
 msgstr "Επιλέξτε νόμισμα από τις διαθέσιμες επιλογές"
 
@@ -521,11 +521,11 @@ msgstr "Κινέζικα (απλοποιημένα)"
 msgid "Chinese (Traditional)"
 msgstr "Κινέζικα (Παραδοσιακά)"
 
-#: InvenTree/tasks.py:668
+#: InvenTree/tasks.py:677
 msgid "Update Available"
 msgstr "Διαθέσιμη ενημέρωση"
 
-#: InvenTree/tasks.py:669
+#: InvenTree/tasks.py:678
 msgid "An update for InvenTree is available"
 msgstr "Μια ενημέρωση για το InvenTree είναι διαθέσιμη"
 
@@ -537,7 +537,7 @@ msgstr "Μη έγκυρη φυσική μονάδα"
 msgid "Not a valid currency code"
 msgstr "Μη έγκυρος κωδικός συναλλάγματος"
 
-#: build/api.py:57 order/api.py:120 order/api.py:289 order/api.py:1444
+#: build/api.py:57 order/api.py:118 order/api.py:287 order/api.py:1442
 #: order/serializers.py:128
 msgid "Order Status"
 msgstr "Κατάσταση παραγγελίας"
@@ -546,23 +546,23 @@ msgstr "Κατάσταση παραγγελίας"
 msgid "Parent Build"
 msgstr "Γονική Κατασκευή"
 
-#: build/api.py:87 build/api.py:1026 order/api.py:566 order/api.py:791
-#: order/api.py:1237 order/api.py:1548 order/api.py:1839 order/api.py:2029
-#: stock/api.py:579
+#: build/api.py:87 build/api.py:1024 order/api.py:564 order/api.py:789
+#: order/api.py:1235 order/api.py:1546 order/api.py:1837 order/api.py:2027
+#: stock/api.py:592
 msgid "Include Variants"
 msgstr "Συμπερίληψη παραλλαγών"
 
-#: build/api.py:103 build/api.py:479 build/api.py:1040 build/models.py:283
+#: build/api.py:103 build/api.py:477 build/api.py:1038 build/models.py:283
 #: build/serializers.py:1169 build/serializers.py:1345
 #: build/serializers.py:1438 company/models.py:1034 company/serializers.py:426
-#: order/api.py:317 order/api.py:321 order/api.py:948 order/api.py:1250
-#: order/api.py:1253 order/api.py:2042 order/api.py:2045 order/api.py:2199
+#: order/api.py:315 order/api.py:319 order/api.py:946 order/api.py:1248
+#: order/api.py:1251 order/api.py:2040 order/api.py:2043 order/api.py:2197
 #: order/models.py:2214 order/models.py:2382 order/models.py:2383
-#: order/models.py:3763 order/models.py:3764 part/api.py:1153 part/api.py:1156
-#: part/api.py:1373 part/models.py:527 part/models.py:3386 part/models.py:3529
+#: order/models.py:3763 order/models.py:3764 part/api.py:1167 part/api.py:1170
+#: part/api.py:1387 part/models.py:527 part/models.py:3386 part/models.py:3529
 #: part/models.py:3587 part/models.py:3608 part/models.py:3630
 #: part/models.py:3771 part/models.py:4093 part/models.py:4520
-#: part/serializers.py:1356 part/serializers.py:2020
+#: part/serializers.py:1367 part/serializers.py:2031
 #: report/templates/report/inventree_bill_of_materials_report.html:110
 #: report/templates/report/inventree_bill_of_materials_report.html:137
 #: report/templates/report/inventree_build_order_report.html:109
@@ -572,7 +572,7 @@ msgstr "Συμπερίληψη παραλλαγών"
 #: report/templates/report/inventree_sales_order_shipment_report.html:28
 #: report/templates/report/inventree_stock_location_report.html:102
 #: report/templates/report/inventree_transfer_order_report.html:25
-#: stock/api.py:592 stock/api.py:1560 stock/serializers.py:121
+#: stock/api.py:605 stock/api.py:1570 stock/serializers.py:121
 #: stock/serializers.py:173 stock/serializers.py:424 stock/serializers.py:610
 #: stock/serializers.py:958 templates/email/build_order_completed.html:17
 #: templates/email/build_order_required_stock.html:17
@@ -583,9 +583,9 @@ msgstr "Συμπερίληψη παραλλαγών"
 msgid "Part"
 msgstr "Εξάρτημα"
 
-#: build/api.py:123 build/api.py:126 build/serializers.py:1452 part/api.py:987
-#: part/api.py:1384 part/models.py:412 part/models.py:1147 part/models.py:3658
-#: part/serializers.py:1366 part/serializers.py:1791 stock/api.py:879
+#: build/api.py:123 build/api.py:126 build/serializers.py:1452 part/api.py:1001
+#: part/api.py:1398 part/models.py:412 part/models.py:1147 part/models.py:3658
+#: part/serializers.py:1377 part/serializers.py:1802 stock/api.py:892
 msgid "Category"
 msgstr "Κατηγορία"
 
@@ -593,7 +593,7 @@ msgstr "Κατηγορία"
 msgid "Ancestor Build"
 msgstr "Πρόγονος κατασκευής"
 
-#: build/api.py:155 order/api.py:138
+#: build/api.py:155 order/api.py:136
 msgid "Assigned to me"
 msgstr "Ανατεθειμένες σε εμένα"
 
@@ -601,11 +601,11 @@ msgstr "Ανατεθειμένες σε εμένα"
 msgid "Assigned To"
 msgstr "Ανατεθεί σε"
 
-#: build/api.py:205 stock/api.py:922
+#: build/api.py:205 stock/api.py:935
 msgid "Created before"
 msgstr "Δημιουργήθηκε πριν από"
 
-#: build/api.py:209 stock/api.py:926
+#: build/api.py:209 stock/api.py:939
 msgid "Created after"
 msgstr "Δημιουργήθηκε μετά από"
 
@@ -641,99 +641,99 @@ msgstr "Ολοκληρώθηκε πριν από"
 msgid "Completed after"
 msgstr "Ολοκληρώθηκε μετά από"
 
-#: build/api.py:252 order/api.py:243
+#: build/api.py:252 order/api.py:241
 msgid "Min Date"
 msgstr "Ελάχιστη ημερομηνία"
 
-#: build/api.py:275 order/api.py:262
+#: build/api.py:275 order/api.py:260
 msgid "Max Date"
 msgstr "Μέγιστη ημερομηνία"
 
-#: build/api.py:300 build/api.py:303 part/api.py:198 stock/api.py:988
+#: build/api.py:300 build/api.py:303 part/api.py:199 stock/api.py:1001
 msgid "Exclude Tree"
 msgstr "Εξαίρεση δέντρου"
 
-#: build/api.py:418
+#: build/api.py:416
 msgid "Build must be cancelled before it can be deleted"
 msgstr "Η έκδοση πρέπει να ακυρωθεί πριν διαγραφεί"
 
-#: build/api.py:462 build/serializers.py:1379 part/models.py:4135
+#: build/api.py:460 build/serializers.py:1379 part/models.py:4135
 msgid "Consumable"
 msgstr "Αναλώσιμο"
 
-#: build/api.py:465 build/serializers.py:1382 part/models.py:4129
+#: build/api.py:463 build/serializers.py:1382 part/models.py:4129
 msgid "Optional"
 msgstr "Προαιρετικό"
 
-#: build/api.py:468 build/serializers.py:1424 common/setting/system.py:476
-#: part/models.py:1261 part/serializers.py:1736 part/serializers.py:1762
-#: stock/api.py:645
+#: build/api.py:466 build/serializers.py:1424 common/setting/system.py:476
+#: part/models.py:1261 part/serializers.py:1747 part/serializers.py:1773
+#: stock/api.py:658
 msgid "Assembly"
 msgstr "Συναρμολόγηση"
 
-#: build/api.py:471
+#: build/api.py:469
 msgid "Tracked"
 msgstr "Υπό παρακολούθηση"
 
-#: build/api.py:474 build/serializers.py:1385 part/models.py:1279
+#: build/api.py:472 build/serializers.py:1385 part/models.py:1279
 msgid "Testable"
 msgstr "Υπό δοκιμή"
 
-#: build/api.py:484 order/api.py:1012 order/api.py:1434 order/api.py:2263
+#: build/api.py:482 order/api.py:1010 order/api.py:1432 order/api.py:2261
 msgid "Order Outstanding"
 msgstr "Εκκρεμής παραγγελία"
 
-#: build/api.py:494 build/serializers.py:1481 order/api.py:971
-#: order/api.py:2222
+#: build/api.py:492 build/serializers.py:1481 order/api.py:969
+#: order/api.py:2220
 msgid "Allocated"
 msgstr "Κατανεμημένο"
 
-#: build/api.py:503 build/models.py:1741 build/serializers.py:1398
+#: build/api.py:501 build/models.py:1741 build/serializers.py:1398
 msgid "Consumed"
 msgstr "Καταναλωμένο"
 
-#: build/api.py:512 company/models.py:879 company/serializers.py:403
+#: build/api.py:510 company/models.py:879 company/serializers.py:403
 #: templates/email/build_order_required_stock.html:19
 #: templates/email/low_stock_notification.html:17
 #: templates/email/part_event_notification.html:18
 msgid "Available"
 msgstr "Διαθέσιμο"
 
-#: build/api.py:551 build/serializers.py:1483 company/serializers.py:400
-#: order/serializers.py:1388 order/serializers.py:2741 part/serializers.py:889
-#: part/serializers.py:1217 part/serializers.py:1800
+#: build/api.py:549 build/serializers.py:1483 company/serializers.py:400
+#: order/serializers.py:1388 order/serializers.py:2741 part/serializers.py:900
+#: part/serializers.py:1228 part/serializers.py:1811
 msgid "On Order"
 msgstr "Σε παραγγελία"
 
-#: build/api.py:704
+#: build/api.py:702
 msgid "Build not found"
 msgstr ""
 
-#: build/api.py:1063 build/models.py:120 order/models.py:2247
+#: build/api.py:1061 build/models.py:120 order/models.py:2247
 #: report/templates/report/inventree_build_order_report.html:105
 #: stock/serializers.py:94 templates/email/build_order_completed.html:16
 #: templates/email/overdue_build_order.html:15
 msgid "Build Order"
 msgstr "Σειρά Κατασκευής"
 
-#: build/api.py:1077 build/api.py:1081 build/serializers.py:374
+#: build/api.py:1075 build/api.py:1079 build/serializers.py:374
 #: build/serializers.py:487 build/serializers.py:536 build/serializers.py:1219
-#: build/serializers.py:1225 order/api.py:1297 order/api.py:1302
-#: order/api.py:2081 order/api.py:2086 order/serializers.py:886
-#: order/serializers.py:1026 order/serializers.py:2314 part/serializers.py:1376
-#: stock/api.py:1014 stock/serializers.py:112 stock/serializers.py:622
-#: stock/serializers.py:742 stock/serializers.py:920 stock/serializers.py:1522
-#: stock/serializers.py:1757 stock/serializers.py:1861
-#: stock/serializers.py:1910 templates/email/stale_stock_notification.html:18
+#: build/serializers.py:1225 order/api.py:1295 order/api.py:1300
+#: order/api.py:2079 order/api.py:2084 order/serializers.py:886
+#: order/serializers.py:1026 order/serializers.py:2314 part/serializers.py:1387
+#: stock/api.py:1027 stock/serializers.py:112 stock/serializers.py:622
+#: stock/serializers.py:742 stock/serializers.py:920 stock/serializers.py:1533
+#: stock/serializers.py:1768 stock/serializers.py:1872
+#: stock/serializers.py:1921 templates/email/stale_stock_notification.html:18
 #: users/models.py:547
 msgid "Location"
 msgstr "Τοποθεσία"
 
-#: build/api.py:1089 part/serializers.py:1401
+#: build/api.py:1087 part/serializers.py:1412
 msgid "Output"
 msgstr "Έξοδος"
 
-#: build/api.py:1091
+#: build/api.py:1089
 msgid "Filter by output stock item ID. Use 'null' to find uninstalled build items."
 msgstr "Φιλτράρισμα με βάση το ID του αποθέματος εξόδου. Χρησιμοποιήστε 'null' για να βρείτε μη εγκατεστημένα στοιχεία κατασκευής"
 
@@ -854,7 +854,7 @@ msgid "Build status code"
 msgstr "Κωδικός κατάστασης κατασκευής"
 
 #: build/models.py:356 build/serializers.py:361 order/serializers.py:902
-#: stock/models.py:1152 stock/serializers.py:86 stock/serializers.py:1695
+#: stock/models.py:1152 stock/serializers.py:86 stock/serializers.py:1706
 msgid "Batch Code"
 msgstr "Κωδικός Παρτίδας"
 
@@ -900,7 +900,7 @@ msgstr "Εκδόθηκε από"
 msgid "User who issued this build order"
 msgstr "Χρήστης που εξέδωσε αυτήν την παραγγελία κατασκευής"
 
-#: build/models.py:419 common/models.py:189 order/api.py:188
+#: build/models.py:419 common/models.py:189 order/api.py:186
 #: order/models.py:556 part/models.py:1359
 #: report/templates/report/inventree_build_order_report.html:158
 msgid "Responsible"
@@ -928,7 +928,7 @@ msgid "Priority of this build order"
 msgstr "Προτεραιότητα αυτής της εντολής κατασκευής"
 
 #: build/models.py:443 common/models.py:159 common/models.py:173
-#: order/api.py:174 order/models.py:496 order/models.py:2062
+#: order/api.py:172 order/models.py:496 order/models.py:2062
 msgid "Project Code"
 msgstr "Κωδικός Έργου"
 
@@ -964,7 +964,7 @@ msgstr "Η έξοδος κατασκευής δεν ταιριάζει με τη
 #: build/serializers.py:337 build/serializers.py:898 build/serializers.py:1695
 #: order/models.py:794 order/serializers.py:672 order/serializers.py:897
 #: part/models.py:3983 stock/models.py:992 stock/models.py:1489
-#: stock/models.py:1990 stock/serializers.py:720 stock/serializers.py:1684
+#: stock/models.py:1990 stock/serializers.py:720 stock/serializers.py:1695
 msgid "Quantity must be greater than zero"
 msgstr "Η ποσότητα πρέπει να είναι μεγαλύτερη από 0"
 
@@ -1057,8 +1057,8 @@ msgstr "Στοιχείο αποθέματος είναι υπερ-κατανεμ
 #: order/serializers.py:1669 order/serializers.py:1690
 #: order/serializers.py:2764 order/serializers.py:2785
 #: report/templates/report/inventree_sales_order_shipment_report.html:29
-#: stock/api.py:1448 stock/models.py:467 stock/serializers.py:103
-#: stock/serializers.py:832 stock/serializers.py:1374 stock/serializers.py:1490
+#: stock/api.py:1461 stock/models.py:467 stock/serializers.py:103
+#: stock/serializers.py:832 stock/serializers.py:1385 stock/serializers.py:1501
 msgid "Stock Item"
 msgstr "Στοιχείο Αποθέματος"
 
@@ -1082,7 +1082,7 @@ msgstr "Αποθήκη προορισμού"
 msgid "Build Level"
 msgstr "Επίπεδο κατασκευής"
 
-#: build/serializers.py:136 part/serializers.py:1303
+#: build/serializers.py:136 part/serializers.py:1314
 msgid "Part Name"
 msgstr "Όνομα Προϊόντος"
 
@@ -1139,7 +1139,7 @@ msgstr "Αυτόματη Κατανομή Σειριακών Αριθμών"
 msgid "Automatically allocate required items with matching serial numbers"
 msgstr "Αυτόματη κατανομή των απαιτούμενων στοιχείων με τους αντίστοιχους σειριακούς αριθμούς"
 
-#: build/serializers.py:425 order/serializers.py:1004 stock/api.py:1216
+#: build/serializers.py:425 order/serializers.py:1004 stock/api.py:1229
 #: stock/models.py:2013
 msgid "The following serial numbers already exist or are invalid"
 msgstr "Οι παρακάτω σειριακοί αριθμοί υπάρχουν ήδη ή δεν είναι έγκυροι"
@@ -1272,7 +1272,7 @@ msgstr "Αντικείμενο Γραμμής Κατασκευής"
 msgid "bom_item.part must point to the same part as the build order"
 msgstr "bom_item.part πρέπει να δείχνει στο ίδιο εξάρτημα με τη εντολή κατασκευής"
 
-#: build/serializers.py:887 stock/serializers.py:1387
+#: build/serializers.py:887 stock/serializers.py:1398
 msgid "Item must be in stock"
 msgstr "Το στοιχείο πρέπει να υπάρχει στο απόθεμα"
 
@@ -1385,8 +1385,8 @@ msgstr ""
 msgid "Build"
 msgstr "Κατασκευή"
 
-#: build/serializers.py:1257 company/models.py:637 order/api.py:330
-#: order/api.py:335 order/api.py:562 order/serializers.py:664
+#: build/serializers.py:1257 company/models.py:637 order/api.py:328
+#: order/api.py:333 order/api.py:560 order/serializers.py:664
 #: stock/models.py:1088 stock/serializers.py:589
 msgid "Supplier Part"
 msgstr "Aντικειμένου προμηθευτή"
@@ -1416,24 +1416,24 @@ msgid "Allow Variants"
 msgstr "Να επιτρέπονται παραλλαγές"
 
 #: build/serializers.py:1400 build/serializers.py:1406 part/models.py:3862
-#: part/models.py:4512 stock/api.py:892
+#: part/models.py:4512 stock/api.py:905
 msgid "BOM Item"
 msgstr "Στοιχείο BOM"
 
 #: build/serializers.py:1484 order/serializers.py:1389
-#: order/serializers.py:2742 part/serializers.py:1221 part/serializers.py:1804
+#: order/serializers.py:2742 part/serializers.py:1232 part/serializers.py:1815
 msgid "In Production"
 msgstr "Σε παραγωγή"
 
-#: build/serializers.py:1486 part/serializers.py:880 part/serializers.py:1225
+#: build/serializers.py:1486 part/serializers.py:891 part/serializers.py:1236
 msgid "Scheduled to Build"
 msgstr "Προγραμματισμένο για κατασκευή"
 
-#: build/serializers.py:1489 part/serializers.py:913
+#: build/serializers.py:1489 part/serializers.py:924
 msgid "External Stock"
 msgstr "Εξωτερικό απόθεμα"
 
-#: build/serializers.py:1490 part/serializers.py:1211 part/serializers.py:1867
+#: build/serializers.py:1490 part/serializers.py:1222 part/serializers.py:1878
 msgid "Available Stock"
 msgstr "Διαθέσιμο απόθεμα"
 
@@ -1527,31 +1527,31 @@ msgstr "Εκπρόθεσμη εντολή κατασκευής"
 msgid "Build order {bo} is now overdue"
 msgstr "Η εντολή κατασκευής {bo} είναι πλέον εκπρόθεσμη"
 
-#: common/api.py:766
+#: common/api.py:764
 msgid "Has Thumbnail"
 msgstr ""
 
-#: common/api.py:775
+#: common/api.py:773
 msgid "Is Link"
 msgstr "Είναι σύνδεσμος"
 
-#: common/api.py:783
+#: common/api.py:781
 msgid "Is File"
 msgstr "Είναι αρχείο"
 
-#: common/api.py:832
+#: common/api.py:828
 msgid "User does not have permission to delete these attachments"
 msgstr "Ο χρήστης δεν έχει δικαίωμα να διαγράψει αυτά τα συνημμένα"
 
-#: common/api.py:845
+#: common/api.py:841
 msgid "User does not have permission to edit this attachment"
 msgstr ""
 
-#: common/api.py:871
+#: common/api.py:867
 msgid "User does not have permission to delete this attachment"
 msgstr "Ο χρήστης δεν έχει δικαίωμα να διαγράψει αυτό το συνημμένο"
 
-#: common/api.py:1248 common/serializers.py:1009 common/serializers.py:1057
+#: common/api.py:1244 common/serializers.py:1009 common/serializers.py:1057
 msgid "Selection list is locked"
 msgstr "Η λίστα επιλογών είναι κλειδωμένη"
 
@@ -1572,7 +1572,7 @@ msgid "No plugin"
 msgstr "Χωρίς πρόσθετο"
 
 #: common/filters.py:110 company/api.py:155 company/api.py:311 stock/api.py:376
-#: stock/api.py:1046
+#: stock/api.py:1059
 msgid "Tags"
 msgstr ""
 
@@ -1677,7 +1677,7 @@ msgstr "Όνομα για αυτό το webhook"
 
 #: common/models.py:1448 common/models.py:2448 common/models.py:2583
 #: company/models.py:194 company/models.py:783 machine/models.py:40
-#: part/models.py:1296 plugin/models.py:69 stock/api.py:648 users/models.py:193
+#: part/models.py:1296 plugin/models.py:69 stock/api.py:661 users/models.py:193
 #: users/models.py:552 users/serializers.py:339 users/serializers.py:431
 msgid "Active"
 msgstr "Ενεργό"
@@ -2172,7 +2172,7 @@ msgstr "Έγκυρες επιλογές για αυτή την παράμετρ�
 msgid "Selection list for this parameter"
 msgstr "Λίστα επιλογών για αυτή την παράμετρο"
 
-#: common/models.py:2770 part/models.py:3797 report/models.py:296
+#: common/models.py:2770 part/models.py:3797 report/models.py:297
 msgid "Enabled"
 msgstr "Ενεργό"
 
@@ -2204,8 +2204,8 @@ msgstr ""
 msgid "ID of the target model for this parameter"
 msgstr ""
 
-#: common/models.py:2979 common/setting/system.py:470 report/models.py:382
-#: report/models.py:703 report/serializers.py:117 report/serializers.py:158
+#: common/models.py:2979 common/setting/system.py:470 report/models.py:383
+#: report/models.py:717 report/serializers.py:117 report/serializers.py:158
 #: stock/serializers.py:246
 msgid "Template"
 msgstr "Πρότυπο"
@@ -2430,7 +2430,7 @@ msgstr "{verbose_name} ακυρώθηκε"
 msgid "A order that is assigned to you was canceled"
 msgstr "Μια παραγγελία που σας είχε ανατεθεί ακυρώθηκε"
 
-#: common/notifications.py:73 common/notifications.py:80 order/api.py:613
+#: common/notifications.py:73 common/notifications.py:80 order/api.py:611
 msgid "Items Received"
 msgstr "Είδη που παραλήφθηκαν"
 
@@ -2524,7 +2524,7 @@ msgstr "Όνομα αρχείου"
 
 #: common/serializers.py:809 common/serializers.py:876
 #: common/serializers.py:952 importer/models.py:90 report/api.py:42
-#: report/models.py:302 report/serializers.py:71
+#: report/models.py:303 report/serializers.py:71
 msgid "Model Type"
 msgstr "Τύπος μοντέλου"
 
@@ -2914,8 +2914,8 @@ msgstr "Τα Προϊόντα είναι πρότυπα από προεπιλο�
 msgid "Parts can be assembled from other components by default"
 msgstr "Τα Προϊόντα μπορούν να συναρμολογούνται από άλλα συστατικά από προεπιλογή"
 
-#: common/setting/system.py:482 part/models.py:1267 part/serializers.py:1771
-#: part/serializers.py:1779
+#: common/setting/system.py:482 part/models.py:1267 part/serializers.py:1782
+#: part/serializers.py:1790
 msgid "Component"
 msgstr "Συστατικό"
 
@@ -2931,7 +2931,7 @@ msgstr "Αγοράσιμο"
 msgid "Parts are purchaseable by default"
 msgstr "Τα Προϊόντα είναι αγοράσιμα από προεπιλογή"
 
-#: common/setting/system.py:494 part/models.py:1291 stock/api.py:649
+#: common/setting/system.py:494 part/models.py:1291 stock/api.py:662
 msgid "Salable"
 msgstr "Πωλήσιμο"
 
@@ -3144,7 +3144,7 @@ msgid "Log errors which occur when generating reports"
 msgstr "Καταγραφή σφαλμάτων που προκύπτουν κατά τη δημιουργία αναφορών"
 
 #: common/setting/system.py:693 plugin/builtin/labels/label_sheet.py:30
-#: report/models.py:390
+#: report/models.py:391
 msgid "Page Size"
 msgstr "Μέγεθος σελίδας"
 
@@ -4128,49 +4128,49 @@ msgstr ""
 msgid "Automatically default to showing items/parts instead of sub-levels for locations or categories with no children"
 msgstr ""
 
-#: common/validators.py:39
+#: common/validators.py:40
 msgid "All models"
 msgstr ""
 
-#: common/validators.py:64
+#: common/validators.py:65
 msgid "No attachment model type provided"
 msgstr "Δεν δόθηκε τύπος μοντέλου συνημμένου"
 
-#: common/validators.py:70
+#: common/validators.py:71
 msgid "Invalid attachment model type"
 msgstr "Μη έγκυρος τύπος μοντέλου συνημμένου"
 
-#: common/validators.py:86
+#: common/validators.py:87
 #, python-brace-format
 msgid "File size exceeds maximum upload limit of {max_size} MB"
 msgstr ""
 
-#: common/validators.py:92
+#: common/validators.py:93
 msgid "Invalid file name"
 msgstr ""
 
-#: common/validators.py:126
+#: common/validators.py:127
 msgid "Minimum places cannot be greater than maximum places"
 msgstr "Οι ελάχιστες θέσεις δεν μπορούν να είναι περισσότερες από τις μέγιστες"
 
-#: common/validators.py:138
+#: common/validators.py:139
 msgid "Maximum places cannot be less than minimum places"
 msgstr "Οι μέγιστες θέσεις δεν μπορούν να είναι λιγότερες από τις ελάχιστες"
 
-#: common/validators.py:149
+#: common/validators.py:150
 msgid "An empty domain is not allowed."
 msgstr "Δεν επιτρέπεται κενός τομέας."
 
-#: common/validators.py:151
+#: common/validators.py:152
 #, python-brace-format
 msgid "Invalid domain name: {domain}"
 msgstr "Μη έγκυρο όνομα τομέα: {domain}"
 
-#: common/validators.py:167
+#: common/validators.py:168
 msgid "Value must be uppercase"
 msgstr "Η τιμή πρέπει να είναι με κεφαλαία"
 
-#: common/validators.py:173
+#: common/validators.py:174
 msgid "Value must be a valid variable identifier"
 msgstr "Η τιμή πρέπει να είναι έγκυρο όνομα μεταβλητής"
 
@@ -4199,12 +4199,12 @@ msgid "Supplier is Active"
 msgstr "Ο προμηθευτής είναι ενεργός"
 
 #: company/api.py:284 company/models.py:536 company/serializers.py:452
-#: part/serializers.py:514
+#: part/serializers.py:525
 msgid "Manufacturer"
 msgstr "Κατασκευαστής"
 
 #: company/api.py:291 company/models.py:124 company/models.py:404
-#: stock/api.py:910
+#: stock/api.py:923
 msgid "Company"
 msgstr "Εταιρεία"
 
@@ -4390,7 +4390,7 @@ msgid "Link to address information (external)"
 msgstr "Σύνδεσμος σε πληροφορίες διεύθυνσης (εξωτερικό)"
 
 #: company/models.py:508 company/models.py:799 company/serializers.py:480
-#: stock/api.py:567
+#: stock/api.py:580
 msgid "Manufacturer Part"
 msgstr "Προϊόν κατασκευαστή"
 
@@ -4408,7 +4408,7 @@ msgid "Select manufacturer"
 msgstr "Επιλογή κατασκευαστή"
 
 #: company/models.py:543 company/serializers.py:491 order/serializers.py:783
-#: part/serializers.py:524
+#: part/serializers.py:535
 msgid "MPN"
 msgstr "MPN"
 
@@ -4437,10 +4437,10 @@ msgid "Linked manufacturer part must reference the same base part"
 msgstr "Το συνδεδεμένο προϊόν κατασκευαστή πρέπει να αναφέρεται στο ίδιο βασικό προϊόν"
 
 #: company/models.py:771 company/serializers.py:439 company/serializers.py:474
-#: order/models.py:716 part/serializers.py:498
+#: order/models.py:716 part/serializers.py:509
 #: plugin/builtin/suppliers/digikey.py:26 plugin/builtin/suppliers/lcsc.py:27
 #: plugin/builtin/suppliers/mouser.py:25 plugin/builtin/suppliers/tme.py:27
-#: stock/api.py:573 templates/email/overdue_purchase_order.html:16
+#: stock/api.py:586 templates/email/overdue_purchase_order.html:16
 msgid "Supplier"
 msgstr "Προμηθευτής"
 
@@ -4448,7 +4448,7 @@ msgstr "Προμηθευτής"
 msgid "Select supplier"
 msgstr "Επιλογή προμηθευτή"
 
-#: company/models.py:778 part/serializers.py:509
+#: company/models.py:778 part/serializers.py:520
 msgid "Supplier stock keeping unit"
 msgstr "Κωδικός αποθέματος προμηθευτή"
 
@@ -4485,7 +4485,7 @@ msgid "Minimum charge (e.g. stocking fee)"
 msgstr "Ελάχιστη χρέωση (π.χ. χρέωση αποθήκευσης)"
 
 #: company/models.py:840 order/serializers.py:928 stock/models.py:1108
-#: stock/serializers.py:1710
+#: stock/serializers.py:1721
 msgid "Packaging"
 msgstr "Συσκευασία"
 
@@ -4533,7 +4533,7 @@ msgstr "Προεπιλεγμένο νόμισμα που χρησιμοποιε�
 msgid "Company Name"
 msgstr "Όνομα εταιρείας"
 
-#: company/serializers.py:396 part/serializers.py:885 stock/serializers.py:449
+#: company/serializers.py:396 part/serializers.py:896 stock/serializers.py:449
 msgid "In Stock"
 msgstr "Σε απόθεμα"
 
@@ -4722,7 +4722,7 @@ msgstr "Αρχικά δεδομένα γραμμής"
 msgid "Errors"
 msgstr "Σφάλματα"
 
-#: importer/models.py:667 part/serializers.py:1179
+#: importer/models.py:667 part/serializers.py:1190
 msgid "Valid"
 msgstr "Έγκυρο"
 
@@ -4838,7 +4838,7 @@ msgstr "Αριθμός αντιτύπων προς εκτύπωση για κά�
 msgid "Connected"
 msgstr "Συνδεδεμένος"
 
-#: machine/machine_types/label_printer.py:232 order/api.py:2425
+#: machine/machine_types/label_printer.py:232 order/api.py:2423
 msgid "Unknown"
 msgstr "Άγνωστο"
 
@@ -4966,117 +4966,117 @@ msgstr "Μέγιστη πρόοδος"
 msgid "Maximum value for progress type, required if type=progress"
 msgstr "Μέγιστη τιμή για τύπο προόδου, απαιτείται αν type=progress"
 
-#: order/api.py:134
+#: order/api.py:132
 msgid "Order Reference"
 msgstr "Αναφορά παραγγελίας"
 
-#: order/api.py:162 order/api.py:1270 order/api.py:2062
+#: order/api.py:160 order/api.py:1268 order/api.py:2060
 msgid "Outstanding"
 msgstr "Σε εκκρεμότητα"
 
-#: order/api.py:178
+#: order/api.py:176
 msgid "Has Project Code"
 msgstr "Έχει κωδικό έργου"
 
-#: order/api.py:192 order/models.py:533
+#: order/api.py:190 order/models.py:533
 msgid "Created By"
 msgstr "Δημιουργήθηκε από"
 
-#: order/api.py:196
+#: order/api.py:194
 msgid "Created Before"
 msgstr "Δημιουργήθηκε πριν"
 
-#: order/api.py:200
+#: order/api.py:198
 msgid "Created After"
 msgstr "Δημιουργήθηκε μετά"
 
-#: order/api.py:204
+#: order/api.py:202
 msgid "Has Start Date"
 msgstr "Έχει ημερομηνία έναρξης"
 
-#: order/api.py:212
+#: order/api.py:210
 msgid "Start Date Before"
 msgstr "Ημερομηνία έναρξης πριν"
 
-#: order/api.py:216
+#: order/api.py:214
 msgid "Start Date After"
 msgstr "Ημερομηνία έναρξης μετά"
 
-#: order/api.py:220
+#: order/api.py:218
 msgid "Has Target Date"
 msgstr "Έχει ημερομηνία στόχο"
 
-#: order/api.py:228
+#: order/api.py:226
 msgid "Target Date Before"
 msgstr "Ημερομηνία στόχος πριν"
 
-#: order/api.py:232
+#: order/api.py:230
 msgid "Target Date After"
 msgstr "Ημερομηνία στόχος μετά"
 
-#: order/api.py:236
+#: order/api.py:234
 msgid "Updated Before"
 msgstr ""
 
-#: order/api.py:240
+#: order/api.py:238
 msgid "Updated After"
 msgstr ""
 
-#: order/api.py:293
+#: order/api.py:291
 msgid "Has Pricing"
 msgstr "Έχει τιμολόγηση"
 
-#: order/api.py:346 order/api.py:833 order/api.py:1589 order/api.py:1880
+#: order/api.py:344 order/api.py:831 order/api.py:1587 order/api.py:1878
 msgid "Completed Before"
 msgstr "Ολοκληρώθηκε πριν"
 
-#: order/api.py:350 order/api.py:837 order/api.py:1593 order/api.py:1884
+#: order/api.py:348 order/api.py:835 order/api.py:1591 order/api.py:1882
 msgid "Completed After"
 msgstr "Ολοκληρώθηκε μετά"
 
-#: order/api.py:356 order/api.py:360
+#: order/api.py:354 order/api.py:358
 msgid "External Build Order"
 msgstr "Εξωτερική εντολή παραγωγής"
 
-#: order/api.py:545 order/api.py:933 order/api.py:1233 order/api.py:2025
-#: order/api.py:2184 order/models.py:2195 order/models.py:2321
+#: order/api.py:543 order/api.py:931 order/api.py:1231 order/api.py:2023
+#: order/api.py:2182 order/models.py:2195 order/models.py:2321
 #: order/models.py:2373 order/models.py:2555 order/models.py:2751
 #: order/models.py:3280 order/models.py:3346 order/models.py:3754
 msgid "Order"
 msgstr "Παραγγελία"
 
-#: order/api.py:549 order/api.py:1001 order/api.py:2252
+#: order/api.py:547 order/api.py:999 order/api.py:2250
 msgid "Order Complete"
 msgstr "Η παραγγελία ολοκληρώθηκε"
 
-#: order/api.py:581 order/api.py:585 order/serializers.py:794
+#: order/api.py:579 order/api.py:583 order/serializers.py:794
 msgid "Internal Part"
 msgstr "Εσωτερικό προϊόν"
 
-#: order/api.py:603
+#: order/api.py:601
 msgid "Order Pending"
 msgstr "Η παραγγελία είναι σε εκκρεμότητα"
 
-#: order/api.py:986 order/api.py:2237
+#: order/api.py:984 order/api.py:2235
 msgid "Completed"
 msgstr "Ολοκληρώθηκε"
 
-#: order/api.py:1286
+#: order/api.py:1284
 msgid "Has Shipment"
 msgstr "Έχει αποστολή"
 
-#: order/api.py:1504
+#: order/api.py:1502
 msgid "Shipment not found"
 msgstr ""
 
-#: order/api.py:2417 order/models.py:632 order/models.py:2196
+#: order/api.py:2415 order/models.py:632 order/models.py:2196
 #: order/models.py:2322
 #: report/templates/report/inventree_purchase_order_report.html:14
 #: stock/serializers.py:130 templates/email/overdue_purchase_order.html:15
 msgid "Purchase Order"
 msgstr "Εντολή αγοράς"
 
-#: order/api.py:2419 order/models.py:1365 order/models.py:2374
+#: order/api.py:2417 order/models.py:1365 order/models.py:2374
 #: order/models.py:2556 order/models.py:2752
 #: report/templates/report/inventree_build_order_report.html:135
 #: report/templates/report/inventree_sales_order_report.html:14
@@ -5085,14 +5085,14 @@ msgstr "Εντολή αγοράς"
 msgid "Sales Order"
 msgstr "Εντολές Πώλησης"
 
-#: order/api.py:2421 order/models.py:2923 order/models.py:3281
+#: order/api.py:2419 order/models.py:2923 order/models.py:3281
 #: order/models.py:3347
 #: report/templates/report/inventree_return_order_report.html:13
 #: templates/email/overdue_return_order.html:15
 msgid "Return Order"
 msgstr "Εντολή επιστροφής"
 
-#: order/api.py:2423 order/models.py:3369 order/models.py:3755
+#: order/api.py:2421 order/models.py:3369 order/models.py:3755
 #: report/templates/report/inventree_transfer_order_report.html:12
 msgid "Transfer Order"
 msgstr ""
@@ -5258,7 +5258,7 @@ msgid "Unserialized stock only"
 msgstr ""
 
 #: order/models.py:1439 order/models.py:3000 stock/models.py:1130
-#: stock/models.py:1131 stock/serializers.py:1426
+#: stock/models.py:1131 stock/serializers.py:1437
 #: templates/email/overdue_return_order.html:16
 #: templates/email/overdue_sales_order.html:16
 msgid "Customer"
@@ -5692,7 +5692,7 @@ msgstr "Αντιγραφή επιπλέον γραμμών"
 msgid "Copy extra line items from the original order"
 msgstr "Αντιγραφή επιπλέον γραμμών από την αρχική παραγγελία"
 
-#: order/serializers.py:99 part/serializers.py:439
+#: order/serializers.py:99 part/serializers.py:450
 msgid "Copy Parameters"
 msgstr "Αντιγραφή παραμέτρων"
 
@@ -5784,11 +5784,11 @@ msgstr "Συγχώνευση ειδών"
 msgid "Merge items with the same part, destination and target date into one line item"
 msgstr "Συγχώνευση ειδών με το ίδιο προϊόν, προορισμό και ημερομηνία στόχο σε μία γραμμή"
 
-#: order/serializers.py:776 part/serializers.py:508
+#: order/serializers.py:776 part/serializers.py:519
 msgid "SKU"
 msgstr "SKU"
 
-#: order/serializers.py:790 part/models.py:1156 part/serializers.py:367
+#: order/serializers.py:790 part/models.py:1156 part/serializers.py:378
 msgid "Internal Part Number"
 msgstr "Εσωτερικός κωδικός προϊόντος"
 
@@ -6056,123 +6056,131 @@ msgstr "Εκπρόθεσμη εντολή επιστροφής"
 msgid "Return order {ro} is now overdue"
 msgstr "Η εντολή επιστροφής {ro} είναι πλέον εκπρόθεσμη"
 
-#: part/api.py:89
+#: part/api.py:90
 msgid "Starred"
 msgstr "Με αστέρι"
 
-#: part/api.py:91
+#: part/api.py:92
 msgid "Filter by starred categories"
 msgstr "Φιλτράρισμα κατά κατηγορίες με αστέρι"
 
-#: part/api.py:108 stock/api.py:288
+#: part/api.py:109 stock/api.py:288
 msgid "Depth"
 msgstr "Βάθος"
 
-#: part/api.py:108
+#: part/api.py:109
 msgid "Filter by category depth"
 msgstr "Φιλτράρισμα κατά βάθος κατηγορίας"
 
-#: part/api.py:126 stock/api.py:306
+#: part/api.py:127 stock/api.py:306
 msgid "Top Level"
 msgstr "Ανώτατο επίπεδο"
 
-#: part/api.py:128
+#: part/api.py:129
 msgid "Filter by top-level categories"
 msgstr "Φιλτράρισμα κατά κατηγορίες ανώτατου επιπέδου"
 
-#: part/api.py:141 stock/api.py:321
+#: part/api.py:142 stock/api.py:321
 msgid "Cascade"
 msgstr "Κατά κληρονομικότητα"
 
-#: part/api.py:143
+#: part/api.py:144
 msgid "Include sub-categories in filtered results"
 msgstr "Συμπερίληψη υποκατηγοριών στα φιλτραρισμένα αποτελέσματα"
 
-#: part/api.py:163
+#: part/api.py:164
 msgid "Parent"
 msgstr "Γονική"
 
-#: part/api.py:165
+#: part/api.py:166
 msgid "Filter by parent category"
 msgstr "Φιλτράρισμα κατά γονική κατηγορία"
 
-#: part/api.py:200
+#: part/api.py:201
 msgid "Exclude sub-categories under the specified category"
 msgstr "Εξαίρεση υποκατηγοριών κάτω από την καθορισμένη κατηγορία"
 
-#: part/api.py:428
+#: part/api.py:298 stock/api.py:468
+msgid "Max Level"
+msgstr ""
+
+#: part/api.py:300 stock/api.py:470
+msgid "Limit the depth of the category tree"
+msgstr ""
+
+#: part/api.py:442
 msgid "Has Results"
 msgstr "Έχει αποτελέσματα"
 
-#: part/api.py:658
+#: part/api.py:672
 msgid "Is Variant"
 msgstr "Είναι παραλλαγή"
 
-#: part/api.py:666
+#: part/api.py:680
 msgid "Is Revision"
 msgstr "Είναι αναθεώρηση"
 
-#: part/api.py:676
+#: part/api.py:690
 msgid "Has Revisions"
 msgstr "Έχει αναθεωρήσεις"
 
-#: part/api.py:874
+#: part/api.py:888
 msgid "BOM Valid"
 msgstr "Έγκυρο BOM"
 
-#: part/api.py:981
+#: part/api.py:995
 msgid "Cascade Categories"
 msgstr "Κατηγορίες κατά κληρονομικότητα"
 
-#: part/api.py:982
+#: part/api.py:996
 msgid "If true, include items in child categories of the given category"
 msgstr "Αν είναι αληθές, συμπεριλαμβάνονται είδη σε θυγατρικές κατηγορίες της δοσμένης κατηγορίας"
 
-#: part/api.py:988
+#: part/api.py:1002
 msgid "Filter by numeric category ID or the literal 'null'"
 msgstr "Φιλτράρισμα κατά αριθμητικό ID κατηγορίας ή τη λέξη 'null'"
 
-#: part/api.py:1301
+#: part/api.py:1315
 msgid "Assembly part is active"
 msgstr ""
 
-#: part/api.py:1305
+#: part/api.py:1319
 msgid "Assembly part is trackable"
 msgstr ""
 
-#: part/api.py:1309
+#: part/api.py:1323
 msgid "Assembly part is testable"
 msgstr "Το προϊόν συναρμολόγησης είναι υπό δοκιμή"
 
-#: part/api.py:1313
+#: part/api.py:1327
 msgid "Assembly part is locked"
 msgstr ""
 
-#: part/api.py:1318
+#: part/api.py:1332
 msgid "Component part is active"
 msgstr ""
 
-#: part/api.py:1322
+#: part/api.py:1336
 msgid "Component part is trackable"
 msgstr ""
 
-#: part/api.py:1326
+#: part/api.py:1340
 msgid "Component part is testable"
 msgstr "Το προϊόν Προϊόντος είναι υπό δοκιμή"
 
-#: part/api.py:1330
+#: part/api.py:1344
 msgid "Component part is an assembly"
 msgstr ""
 
-#: part/api.py:1334
+#: part/api.py:1348
 msgid "Component part is virtual"
 msgstr ""
 
-#: part/api.py:1338
+#: part/api.py:1352
 msgid "Has available stock"
 msgstr ""
 
-#: part/api.py:1395
+#: part/api.py:1409
 msgid "Uses"
 msgstr "Χρήσεις"
 
@@ -6213,7 +6221,7 @@ msgstr "Προεπιλεγμένες λέξεις-κλειδιά για προϊ
 msgid "Icon"
 msgstr "Εικονίδιο"
 
-#: part/models.py:137 part/serializers.py:175 part/serializers.py:196
+#: part/models.py:137 part/serializers.py:175 part/serializers.py:207
 #: stock/models.py:187
 msgid "Icon (optional)"
 msgstr "Εικονίδιο (προαιρετικό)"
@@ -6349,7 +6357,7 @@ msgstr "Λέξεις-κλειδιά προϊόντος για βελτίωση �
 msgid "Part category"
 msgstr "Κατηγορία προϊόντος"
 
-#: part/models.py:1155 part/serializers.py:859
+#: part/models.py:1155 part/serializers.py:870
 #: report/templates/report/inventree_stock_location_report.html:103
 msgid "IPN"
 msgstr "IPN"
@@ -6358,7 +6366,7 @@ msgstr "IPN"
 msgid "Part revision or version number"
 msgstr "Αριθμός αναθεώρησης ή έκδοσης προϊόντος"
 
-#: part/models.py:1164 report/models.py:233
+#: part/models.py:1164 report/models.py:234
 msgid "Revision"
 msgstr "Αναθεώρηση"
 
@@ -6382,7 +6390,7 @@ msgstr "Προεπιλεγμένη λήξη"
 msgid "Expiry time (in days) for stock items of this part"
 msgstr "Χρόνος λήξης (σε ημέρες) για είδη αποθέματος αυτού του προϊόντος"
 
-#: part/models.py:1236 part/serializers.py:929
+#: part/models.py:1236 part/serializers.py:940
 msgid "Minimum Stock"
 msgstr "Ελάχιστο απόθεμα"
 
@@ -6390,7 +6398,7 @@ msgstr "Ελάχιστο απόθεμα"
 msgid "Minimum allowed stock level"
 msgstr "Ελάχιστο επιτρεπτό επίπεδο αποθέματος"
 
-#: part/models.py:1245 part/serializers.py:933
+#: part/models.py:1245 part/serializers.py:944
 msgid "Maximum Stock"
 msgstr ""
 
@@ -6759,7 +6767,7 @@ msgstr "Υποπροϊόν"
 msgid "Select part to be used in BOM"
 msgstr "Επιλέξτε προϊόν που θα χρησιμοποιηθεί στο BOM"
 
-#: part/models.py:4111 part/serializers.py:1719
+#: part/models.py:4111 part/serializers.py:1730
 msgid "Amount"
 msgstr ""
 
@@ -6911,351 +6919,351 @@ msgstr "Γονική κατηγορία"
 msgid "Parent part category"
 msgstr "Γονική κατηγορία προϊόντος"
 
-#: part/serializers.py:139 part/serializers.py:193
+#: part/serializers.py:139 part/serializers.py:204
 msgid "Subcategories"
 msgstr "Υποκατηγορίες"
 
-#: part/serializers.py:232
+#: part/serializers.py:243
 msgid "Results"
 msgstr "Αποτελέσματα"
 
-#: part/serializers.py:233
+#: part/serializers.py:244
 msgid "Number of results recorded against this template"
 msgstr "Αριθμός αποτελεσμάτων που έχουν καταγραφεί για αυτό το πρότυπο"
 
-#: part/serializers.py:264 part/serializers.py:282 stock/serializers.py:675
+#: part/serializers.py:275 part/serializers.py:293 stock/serializers.py:675
 msgid "Purchase currency of this stock item"
 msgstr "Νόμισμα αγοράς για αυτό το είδος αποθέματος"
 
-#: part/serializers.py:309
+#: part/serializers.py:320
 msgid "File is not an image"
 msgstr "Το αρχείο δεν είναι εικόνα"
 
-#: part/serializers.py:419
+#: part/serializers.py:430
 msgid "Original Part"
 msgstr "Αρχικό προϊόν"
 
-#: part/serializers.py:420
+#: part/serializers.py:431
 msgid "Select original part to duplicate"
 msgstr "Επιλέξτε αρχικό προϊόν για αντιγραφή"
 
-#: part/serializers.py:425
+#: part/serializers.py:436
 msgid "Copy Image"
 msgstr "Αντιγραφή εικόνας"
 
-#: part/serializers.py:426
+#: part/serializers.py:437
 msgid "Copy image from original part"
 msgstr "Αντιγραφή εικόνας από το αρχικό προϊόν"
 
-#: part/serializers.py:432
+#: part/serializers.py:443
 msgid "Copy BOM"
 msgstr "Αντιγραφή BOM"
 
-#: part/serializers.py:433
+#: part/serializers.py:444
 msgid "Copy bill of materials from original part"
 msgstr "Αντιγραφή λίστας υλικών (BOM) από το αρχικό προϊόν"
 
-#: part/serializers.py:440
+#: part/serializers.py:451
 msgid "Copy parameter data from original part"
 msgstr "Αντιγραφή δεδομένων παραμέτρων από το αρχικό προϊόν"
 
-#: part/serializers.py:446
+#: part/serializers.py:457
 msgid "Copy Notes"
 msgstr "Αντιγραφή σημειώσεων"
 
-#: part/serializers.py:447
+#: part/serializers.py:458
 msgid "Copy notes from original part"
 msgstr "Αντιγραφή σημειώσεων από το αρχικό προϊόν"
 
-#: part/serializers.py:453
+#: part/serializers.py:464
 msgid "Copy Tests"
 msgstr "Αντιγραφή δοκιμών"
 
-#: part/serializers.py:454
+#: part/serializers.py:465
 msgid "Copy test templates from original part"
 msgstr "Αντιγραφή προτύπων δοκιμών από το αρχικό προϊόν"
 
-#: part/serializers.py:472
+#: part/serializers.py:483
 msgid "Initial Stock Quantity"
 msgstr "Αρχική ποσότητα αποθέματος"
 
-#: part/serializers.py:474
+#: part/serializers.py:485
 msgid "Specify initial stock quantity for this Part. If quantity is zero, no stock is added."
 msgstr "Καθορίστε αρχική ποσότητα αποθέματος για αυτό το προϊόν. Αν η ποσότητα είναι μηδέν, δεν προστίθεται απόθεμα"
 
-#: part/serializers.py:481
+#: part/serializers.py:492
 msgid "Initial Stock Location"
 msgstr "Αρχική τοποθεσία αποθέματος"
 
-#: part/serializers.py:482
+#: part/serializers.py:493
 msgid "Specify initial stock location for this Part"
 msgstr "Καθορίστε αρχική τοποθεσία αποθέματος για αυτό το προϊόν"
 
-#: part/serializers.py:499
+#: part/serializers.py:510
 msgid "Select supplier (or leave blank to skip)"
 msgstr "Επιλέξτε προμηθευτή (ή αφήστε κενό για παράλειψη)"
 
-#: part/serializers.py:515
+#: part/serializers.py:526
 msgid "Select manufacturer (or leave blank to skip)"
 msgstr "Επιλέξτε κατασκευαστή (ή αφήστε κενό για παράλειψη)"
 
-#: part/serializers.py:525
+#: part/serializers.py:536
 msgid "Manufacturer part number"
 msgstr "Κωδικός προϊόντος κατασκευαστή"
 
-#: part/serializers.py:532
+#: part/serializers.py:543
 msgid "Selected company is not a valid supplier"
 msgstr "Η επιλεγμένη εταιρεία δεν είναι έγκυρος προμηθευτής"
 
-#: part/serializers.py:541
+#: part/serializers.py:552
 msgid "Selected company is not a valid manufacturer"
 msgstr "Η επιλεγμένη εταιρεία δεν είναι έγκυρος κατασκευαστής"
 
-#: part/serializers.py:552
+#: part/serializers.py:563
 msgid "Manufacturer part matching this MPN already exists"
 msgstr "Υπάρχει ήδη προϊόν κατασκευαστή με αυτό το MPN"
 
-#: part/serializers.py:559
+#: part/serializers.py:570
 msgid "Supplier part matching this SKU already exists"
 msgstr "Υπάρχει ήδη προϊόν προμηθευτή με αυτό το SKU"
 
-#: part/serializers.py:844
+#: part/serializers.py:855
 msgid "Category Name"
 msgstr "Όνομα κατηγορίας"
 
-#: part/serializers.py:873
+#: part/serializers.py:884
 msgid "Building"
 msgstr "Σε παραγωγή"
 
-#: part/serializers.py:874
+#: part/serializers.py:885
 msgid "Quantity of this part currently being in production"
 msgstr "Ποσότητα αυτού του προϊόντος που βρίσκεται αυτή τη στιγμή σε παραγωγή"
 
-#: part/serializers.py:881
+#: part/serializers.py:892
 msgid "Outstanding quantity of this part scheduled to be built"
 msgstr "Εκκρεμής ποσότητα αυτού του προϊόντος που έχει προγραμματιστεί για παραγωγή"
 
-#: part/serializers.py:901 stock/serializers.py:1051 stock/serializers.py:1256
+#: part/serializers.py:912 stock/serializers.py:1051 stock/serializers.py:1267
 #: users/ruleset.py:33
 msgid "Stock Items"
 msgstr "Είδη αποθέματος"
 
-#: part/serializers.py:905
+#: part/serializers.py:916
 msgid "Revisions"
 msgstr "Αναθεωρήσεις"
 
-#: part/serializers.py:909 part/serializers.py:1208
+#: part/serializers.py:920 part/serializers.py:1219
 #: templates/email/low_stock_notification.html:16
 #: templates/email/part_event_notification.html:17
 msgid "Total Stock"
 msgstr "Συνολικό απόθεμα"
 
-#: part/serializers.py:917
+#: part/serializers.py:928
 msgid "Unallocated Stock"
 msgstr "Μη δεσμευμένο απόθεμα"
 
-#: part/serializers.py:925
+#: part/serializers.py:936
 msgid "Variant Stock"
 msgstr "Απόθεμα παραλλαγών"
 
-#: part/serializers.py:1000
+#: part/serializers.py:1011
 msgid "Duplicate Part"
 msgstr "Αντιγραφή προϊόντος"
 
-#: part/serializers.py:1001
+#: part/serializers.py:1012
 msgid "Copy initial data from another Part"
 msgstr "Αντιγραφή αρχικών δεδομένων από άλλο προϊόν"
 
-#: part/serializers.py:1007
+#: part/serializers.py:1018
 msgid "Initial Stock"
 msgstr "Αρχικό απόθεμα"
 
-#: part/serializers.py:1008
+#: part/serializers.py:1019
 msgid "Create Part with initial stock quantity"
 msgstr "Δημιουργία προϊόντος με αρχική ποσότητα αποθέματος"
 
-#: part/serializers.py:1014
+#: part/serializers.py:1025
 msgid "Supplier Information"
 msgstr "Πληροφορίες προμηθευτή"
 
-#: part/serializers.py:1015
+#: part/serializers.py:1026
 msgid "Add initial supplier information for this part"
 msgstr "Προσθήκη αρχικών πληροφοριών προμηθευτή για αυτό το προϊόν"
 
-#: part/serializers.py:1024
+#: part/serializers.py:1035
 msgid "Copy Category Parameters"
 msgstr "Αντιγραφή παραμέτρων κατηγορίας"
 
-#: part/serializers.py:1025
+#: part/serializers.py:1036
 msgid "Copy parameter templates from selected part category"
 msgstr "Αντιγραφή προτύπων παραμέτρων από την επιλεγμένη κατηγορία προϊόντος"
 
-#: part/serializers.py:1030
+#: part/serializers.py:1041
 msgid "Existing Image"
 msgstr "Υπάρχουσα εικόνα"
 
-#: part/serializers.py:1031
+#: part/serializers.py:1042
 msgid "Filename of an existing part image"
 msgstr "Όνομα αρχείου υπάρχουσας εικόνας προϊόντος"
 
-#: part/serializers.py:1048
+#: part/serializers.py:1059
 msgid "Image file does not exist"
 msgstr "Το αρχείο εικόνας δεν υπάρχει"
 
-#: part/serializers.py:1180
+#: part/serializers.py:1191
 msgid "Validate entire Bill of Materials"
 msgstr "Επικύρωση ολόκληρης της λίστας υλικών (BOM)"
 
-#: part/serializers.py:1214 part/serializers.py:1810
+#: part/serializers.py:1225 part/serializers.py:1821
 msgid "Can Build"
 msgstr "Μπορεί να παραχθεί"
 
-#: part/serializers.py:1231
+#: part/serializers.py:1242
 msgid "Required for Build Orders"
 msgstr "Απαιτείται για εντολές παραγωγής"
 
-#: part/serializers.py:1236
+#: part/serializers.py:1247
 msgid "Allocated to Build Orders"
 msgstr "Δεσμευμένο σε εντολές παραγωγής"
 
-#: part/serializers.py:1243
+#: part/serializers.py:1254
 msgid "Required for Sales Orders"
 msgstr "Απαιτείται για εντολές πώλησης"
 
-#: part/serializers.py:1247
+#: part/serializers.py:1258
 msgid "Allocated to Sales Orders"
 msgstr "Δεσμευμένο σε εντολές πώλησης"
 
-#: part/serializers.py:1307
+#: part/serializers.py:1318
 msgid "Part IPN"
 msgstr ""
 
-#: part/serializers.py:1314
+#: part/serializers.py:1325
 msgid "Part Description"
 msgstr ""
 
-#: part/serializers.py:1358
+#: part/serializers.py:1369
 msgid "Select a part to generate stocktake information for that part (and any variant parts)"
 msgstr ""
 
-#: part/serializers.py:1368
+#: part/serializers.py:1379
 msgid "Select a category to include all parts within that category (and subcategories)"
 msgstr ""
 
-#: part/serializers.py:1378
+#: part/serializers.py:1389
 msgid "Select a location to include all parts with stock in that location (including sub-locations)"
 msgstr ""
 
-#: part/serializers.py:1385
+#: part/serializers.py:1396
 msgid "Generate Stocktake Entries"
 msgstr ""
 
-#: part/serializers.py:1386
+#: part/serializers.py:1397
 msgid "Save stocktake entries for the selected parts"
 msgstr ""
 
-#: part/serializers.py:1393
+#: part/serializers.py:1404
 msgid "Generate Report"
 msgstr ""
 
-#: part/serializers.py:1394
+#: part/serializers.py:1405
 msgid "Generate a stocktake report for the selected parts"
 msgstr ""
 
-#: part/serializers.py:1497
+#: part/serializers.py:1508
 msgid "Minimum Price"
 msgstr "Ελάχιστη τιμή"
 
-#: part/serializers.py:1498
+#: part/serializers.py:1509
 msgid "Override calculated value for minimum price"
 msgstr "Παράκαμψη υπολογισμένης τιμής για την ελάχιστη τιμή"
 
-#: part/serializers.py:1505
+#: part/serializers.py:1516
 msgid "Minimum price currency"
 msgstr "Νόμισμα ελάχιστης τιμής"
 
-#: part/serializers.py:1512
+#: part/serializers.py:1523
 msgid "Maximum Price"
 msgstr "Μέγιστη τιμή"
 
-#: part/serializers.py:1513
+#: part/serializers.py:1524
 msgid "Override calculated value for maximum price"
 msgstr "Παράκαμψη υπολογισμένης τιμής για τη μέγιστη τιμή"
 
-#: part/serializers.py:1520
+#: part/serializers.py:1531
 msgid "Maximum price currency"
 msgstr "Νόμισμα μέγιστης τιμής"
 
-#: part/serializers.py:1549
+#: part/serializers.py:1560
 msgid "Update"
 msgstr "Ενημέρωση"
 
-#: part/serializers.py:1550
+#: part/serializers.py:1561
 msgid "Update pricing for this part"
 msgstr "Ενημέρωση τιμολόγησης για αυτό το προϊόν"
 
-#: part/serializers.py:1573
+#: part/serializers.py:1584
 #, python-brace-format
 msgid "Could not convert from provided currencies to {default_currency}"
 msgstr "Δεν ήταν δυνατή η μετατροπή από τα δοθέντα νομίσματα σε {default_currency}"
 
-#: part/serializers.py:1580
+#: part/serializers.py:1591
 msgid "Minimum price must not be greater than maximum price"
 msgstr "Η ελάχιστη τιμή δεν πρέπει να είναι μεγαλύτερη από τη μέγιστη τιμή"
 
-#: part/serializers.py:1583
+#: part/serializers.py:1594
 msgid "Maximum price must not be less than minimum price"
 msgstr "Η μέγιστη τιμή δεν πρέπει να είναι μικρότερη από την ελάχιστη τιμή"
 
-#: part/serializers.py:1720
+#: part/serializers.py:1731
 msgid "Amount required for this item (can include units)"
 msgstr ""
 
-#: part/serializers.py:1737
+#: part/serializers.py:1748
 msgid "Select the parent assembly"
 msgstr "Επιλέξτε τη γονική συναρμολόγηση"
 
-#: part/serializers.py:1772
+#: part/serializers.py:1783
 msgid "Select the component part"
 msgstr "Επιλέξτε το προϊόν Προϊόντος"
 
-#: part/serializers.py:1892
+#: part/serializers.py:1903
 msgid "Invalid quantity format"
 msgstr ""
 
-#: part/serializers.py:2021
+#: part/serializers.py:2032
 msgid "Select part to copy BOM from"
 msgstr "Επιλέξτε προϊόν από το οποίο θα αντιγραφεί το BOM"
 
-#: part/serializers.py:2029
+#: part/serializers.py:2040
 msgid "Remove Existing Data"
 msgstr "Αφαίρεση υπαρχόντων δεδομένων"
 
-#: part/serializers.py:2030
+#: part/serializers.py:2041
 msgid "Remove existing BOM items before copying"
 msgstr "Αφαίρεση υπαρχόντων στοιχείων BOM πριν την αντιγραφή"
 
-#: part/serializers.py:2035
+#: part/serializers.py:2046
 msgid "Include Inherited"
 msgstr "Συμπερίληψη κληρονομημένων"
 
-#: part/serializers.py:2036
+#: part/serializers.py:2047
 msgid "Include BOM items which are inherited from templated parts"
 msgstr "Συμπερίληψη στοιχείων BOM που κληρονομούνται από προϊόντα προτύπων"
 
-#: part/serializers.py:2041
+#: part/serializers.py:2052
 msgid "Skip Invalid Rows"
 msgstr "Παράλειψη μη έγκυρων γραμμών"
 
-#: part/serializers.py:2042
+#: part/serializers.py:2053
 msgid "Enable this option to skip invalid rows"
 msgstr "Ενεργοποιήστε αυτή την επιλογή για να παραλείπονται οι μη έγκυρες γραμμές"
 
-#: part/serializers.py:2047
+#: part/serializers.py:2058
 msgid "Copy Substitute Parts"
 msgstr "Αντιγραφή εναλλακτικών προϊόντων"
 
-#: part/serializers.py:2048
+#: part/serializers.py:2059
 msgid "Copy substitute parts when duplicate BOM items"
 msgstr "Αντιγραφή εναλλακτικών προϊόντων κατά την αντιγραφή στοιχείων BOM"
 
@@ -7992,7 +8000,7 @@ msgstr "Περίγραμμα"
 msgid "Print a border around each label"
 msgstr "Εκτύπωση περιγράμματος γύρω από κάθε ετικέτα"
 
-#: plugin/builtin/labels/label_sheet.py:50 report/models.py:396
+#: plugin/builtin/labels/label_sheet.py:50 report/models.py:397
 msgid "Landscape"
 msgstr "Οριζόντιος προσανατολισμός"
 
@@ -8481,136 +8489,136 @@ msgstr "Legal"
 msgid "Letter"
 msgstr "Letter"
 
-#: report/models.py:130
+#: report/models.py:131
 msgid "Template file with this name already exists"
 msgstr "Υπάρχει ήδη αρχείο προτύπου με αυτό το όνομα"
 
-#: report/models.py:222
+#: report/models.py:223
 msgid "Template name"
 msgstr "Όνομα προτύπου"
 
-#: report/models.py:228
+#: report/models.py:229
 msgid "Template description"
 msgstr "Περιγραφή προτύπου"
 
-#: report/models.py:234
+#: report/models.py:235
 msgid "Revision number (auto-increments)"
 msgstr "Αριθμός αναθεώρησης (αυτόματη αύξηση)"
 
-#: report/models.py:240
+#: report/models.py:241
 msgid "Attach to Model on Print"
 msgstr "Συσχέτιση με μοντέλο κατά την εκτύπωση"
 
-#: report/models.py:242
+#: report/models.py:243
 msgid "Save report output as an attachment against linked model instance when printing"
 msgstr "Αποθήκευση του παραγόμενου αναφοράς ως συνημμένου στην συνδεδεμένη εγγραφή μοντέλου κατά την εκτύπωση"
 
-#: report/models.py:290
+#: report/models.py:291
 msgid "Filename Pattern"
 msgstr "Μοτίβο ονόματος αρχείου"
 
-#: report/models.py:291
+#: report/models.py:292
 msgid "Pattern for generating filenames"
 msgstr "Μοτίβο για τη δημιουργία ονομάτων αρχείων"
 
-#: report/models.py:296
+#: report/models.py:297
 msgid "Template is enabled"
 msgstr "Το πρότυπο είναι ενεργό"
 
-#: report/models.py:303
+#: report/models.py:304
 msgid "Target model type for template"
 msgstr "Τύπος μοντέλου-στόχου για το πρότυπο"
 
-#: report/models.py:323
+#: report/models.py:324
 msgid "Filters"
 msgstr "Φίλτρα"
 
-#: report/models.py:324
+#: report/models.py:325
 msgid "Template query filters (comma-separated list of key=value pairs)"
 msgstr "Φίλτρα ερωτημάτων προτύπου (λίστα ζευγών key=value χωρισμένων με κόμμα)"
 
-#: report/models.py:383 report/models.py:704
+#: report/models.py:384 report/models.py:718
 msgid "Template file"
 msgstr "Αρχείο προτύπου"
 
-#: report/models.py:391
+#: report/models.py:392
 msgid "Page size for PDF reports"
 msgstr "Μέγεθος σελίδας για αναφορές PDF"
 
-#: report/models.py:397
+#: report/models.py:398
 msgid "Render report in landscape orientation"
 msgstr "Απόδοση αναφοράς σε οριζόντιο προσανατολισμό"
 
-#: report/models.py:402
+#: report/models.py:403
 msgid "Merge"
 msgstr "Συγχώνευση"
 
-#: report/models.py:403
+#: report/models.py:404
 msgid "Render a single report against selected items"
 msgstr "Απόδοση μίας ενιαίας αναφοράς για τα επιλεγμένα είδη"
 
-#: report/models.py:470
+#: report/models.py:471
 #, python-brace-format
 msgid "Report generated from template {self.name}"
 msgstr "Αναφορά που δημιουργήθηκε από το πρότυπο {self.name}"
 
-#: report/models.py:580 report/models.py:619 report/models.py:620
+#: report/models.py:581 report/models.py:620
 msgid "Template syntax error"
 msgstr "Σφάλμα σύνταξης προτύπου"
 
-#: report/models.py:587 report/models.py:626
+#: report/models.py:588 report/models.py:627
 msgid "Error rendering report"
 msgstr "Σφάλμα κατά την απόδοση της αναφοράς"
 
-#: report/models.py:647
+#: report/models.py:655
 msgid "Error generating report"
 msgstr "Σφάλμα κατά τη δημιουργία της αναφοράς"
 
-#: report/models.py:678
+#: report/models.py:686
 msgid "Error merging report outputs"
 msgstr "Σφάλμα κατά τη συγχώνευση των αποτελεσμάτων αναφοράς"
 
-#: report/models.py:710
+#: report/models.py:724
 msgid "Width [mm]"
 msgstr "Πλάτος [mm]"
 
-#: report/models.py:711
+#: report/models.py:725
 msgid "Label width, specified in mm"
 msgstr "Πλάτος ετικέτας, σε mm"
 
-#: report/models.py:717
+#: report/models.py:731
 msgid "Height [mm]"
 msgstr "Ύψος [mm]"
 
-#: report/models.py:718
+#: report/models.py:732
 msgid "Label height, specified in mm"
 msgstr "Ύψος ετικέτας, σε mm"
 
-#: report/models.py:832
+#: report/models.py:846
 msgid "Error printing labels"
 msgstr "Σφάλμα κατά την εκτύπωση ετικετών"
 
-#: report/models.py:851
+#: report/models.py:865
 msgid "Snippet"
 msgstr "Απόσπασμα"
 
-#: report/models.py:852
+#: report/models.py:866
 msgid "Report snippet file"
 msgstr "Αρχείο αποσπάσματος αναφοράς"
 
-#: report/models.py:859
+#: report/models.py:873
 msgid "Snippet file description"
 msgstr "Περιγραφή αρχείου αποσπάσματος"
 
-#: report/models.py:877
+#: report/models.py:891
 msgid "Asset"
 msgstr "Πόρος"
 
-#: report/models.py:878
+#: report/models.py:892
 msgid "Report asset file"
 msgstr "Αρχείο πόρου αναφοράς"
 
-#: report/models.py:885
+#: report/models.py:899
 msgid "Asset file description"
 msgstr "Περιγραφή αρχείου πόρου"
 
@@ -8766,31 +8774,31 @@ msgstr "Χωρίς αποτέλεσμα"
 msgid "Transferred"
 msgstr ""
 
-#: report/templatetags/report.py:167
+#: report/templatetags/report.py:192
 msgid "Invalid media file path"
 msgstr ""
 
-#: report/templatetags/report.py:186
+#: report/templatetags/report.py:211
 msgid "Invalid static file path"
 msgstr ""
 
-#: report/templatetags/report.py:288
+#: report/templatetags/report.py:313
 msgid "Asset file not found"
 msgstr ""
 
-#: report/templatetags/report.py:354 report/templatetags/report.py:470
+#: report/templatetags/report.py:379 report/templatetags/report.py:495
 msgid "Image file not found"
 msgstr "Το αρχείο εικόνας δεν βρέθηκε"
 
-#: report/templatetags/report.py:439
+#: report/templatetags/report.py:464
 msgid "No image file specified"
 msgstr ""
 
-#: report/templatetags/report.py:464
+#: report/templatetags/report.py:489
 msgid "part_image tag requires a Part instance"
 msgstr "Το tag part_image απαιτεί μία παρουσία Aντικειμένου"
 
-#: report/templatetags/report.py:562
+#: report/templatetags/report.py:581
 msgid "company_image tag requires a Company instance"
 msgstr "Το tag company_image απαιτεί ένα Aντικειμένου Company"
 
@@ -8806,7 +8814,7 @@ msgstr "Φιλτράρισμα κατά τοποθεσίες ανώτατου ε
 msgid "Include sub-locations in filtered results"
 msgstr "Συμπερίληψη υποτοποθεσιών στα φιλτραρισμένα αποτελέσματα"
 
-#: stock/api.py:344 stock/serializers.py:1252
+#: stock/api.py:344 stock/serializers.py:1263
 msgid "Parent Location"
 msgstr "Γονική τοποθεσία"
 
@@ -8814,152 +8822,152 @@ msgstr "Γονική τοποθεσία"
 msgid "Filter by parent location"
 msgstr "Φιλτράρισμα βάσει γονικής τοποθεσίας"
 
-#: stock/api.py:611
+#: stock/api.py:624
 msgid "Part name (case insensitive)"
 msgstr "Όνομα προϊόντος (χωρίς διάκριση πεζών/κεφαλαίων)"
 
-#: stock/api.py:617
+#: stock/api.py:630
 msgid "Part name contains (case insensitive)"
 msgstr "Το όνομα προϊόντος περιέχει (χωρίς διάκριση πεζών/κεφαλαίων)"
 
-#: stock/api.py:623
+#: stock/api.py:636
 msgid "Part name (regex)"
 msgstr "Όνομα προϊόντος (regex)"
 
-#: stock/api.py:628
+#: stock/api.py:641
 msgid "Part IPN (case insensitive)"
 msgstr "IPN προϊόντος (χωρίς διάκριση πεζών/κεφαλαίων)"
 
-#: stock/api.py:634
+#: stock/api.py:647
 msgid "Part IPN contains (case insensitive)"
 msgstr "Το IPN προϊόντος περιέχει (χωρίς διάκριση πεζών/κεφαλαίων)"
 
-#: stock/api.py:640
+#: stock/api.py:653
 msgid "Part IPN (regex)"
 msgstr "IPN προϊόντος (regex)"
 
-#: stock/api.py:652
+#: stock/api.py:665
 msgid "Minimum stock"
 msgstr "Ελάχιστο απόθεμα"
 
-#: stock/api.py:656
+#: stock/api.py:669
 msgid "Maximum stock"
 msgstr "Μέγιστο απόθεμα"
 
-#: stock/api.py:659
+#: stock/api.py:672
 msgid "Status Code"
 msgstr "Κωδικός κατάστασης"
 
-#: stock/api.py:703
+#: stock/api.py:716
 msgid "External Location"
 msgstr "Εξωτερική τοποθεσία"
 
-#: stock/api.py:802
+#: stock/api.py:815
 msgid "Consumed by Build Order"
 msgstr "Αναλωμένο από εντολή παραγωγής"
 
-#: stock/api.py:812
+#: stock/api.py:825
 msgid "Installed in other stock item"
 msgstr "Εγκατεστημένο σε άλλο είδος αποθέματος"
 
-#: stock/api.py:901
+#: stock/api.py:914
 msgid "Part Tree"
 msgstr "Δέντρο προϊόντος"
 
-#: stock/api.py:930
+#: stock/api.py:943
 msgid "Updated before"
 msgstr "Ενημερώθηκε πριν από"
 
-#: stock/api.py:934
+#: stock/api.py:947
 msgid "Updated after"
 msgstr "Ενημερώθηκε μετά από"
 
-#: stock/api.py:938
+#: stock/api.py:951
 msgid "Stocktake Before"
 msgstr "Απογραφή πριν από"
 
-#: stock/api.py:942
+#: stock/api.py:955
 msgid "Stocktake After"
 msgstr "Απογραφή μετά από"
 
-#: stock/api.py:946
+#: stock/api.py:959
 msgid "Has Stocktake Date"
 msgstr ""
 
-#: stock/api.py:957
+#: stock/api.py:970
 msgid "Expiry date before"
 msgstr "Ημερομηνία λήξης πριν από"
 
-#: stock/api.py:961
+#: stock/api.py:974
 msgid "Expiry date after"
 msgstr "Ημερομηνία λήξης μετά από"
 
-#: stock/api.py:964 stock/serializers.py:663
+#: stock/api.py:977 stock/serializers.py:663
 msgid "Stale"
 msgstr "Παλαιωμένο"
 
-#: stock/api.py:990
+#: stock/api.py:1003
 msgid "Provide a StockItem PK to exclude that item and all its descendants"
 msgstr "Δώστε ένα PK είδους αποθέματος για να εξαιρεθεί αυτό και όλοι οι απόγονοί του"
 
-#: stock/api.py:1008
+#: stock/api.py:1021
 msgid "Cascade Locations"
 msgstr "Διαδοχικές τοποθεσίες"
 
-#: stock/api.py:1009
+#: stock/api.py:1022
 msgid "If true, include items in child locations of the given location"
 msgstr "Αν είναι true, περιλαμβάνει είδη σε θυγατρικές τοποθεσίες της δεδομένης τοποθεσίας"
 
-#: stock/api.py:1015
+#: stock/api.py:1028
 msgid "Filter by numeric Location ID or the literal 'null'"
 msgstr "Φιλτράρισμα κατά αριθμητικό ID τοποθεσίας ή τη λέξη 'null'"
 
-#: stock/api.py:1117
+#: stock/api.py:1130
 msgid "Quantity is required"
 msgstr "Απαιτείται ποσότητα"
 
-#: stock/api.py:1122
+#: stock/api.py:1135
 msgid "Valid part must be supplied"
 msgstr "Πρέπει να δοθεί έγκυρο προϊόν"
 
-#: stock/api.py:1153
+#: stock/api.py:1166
 msgid "The given supplier part does not exist"
 msgstr "Το δοθέν προϊόν προμηθευτή δεν υπάρχει"
 
-#: stock/api.py:1163
+#: stock/api.py:1176
 msgid "The supplier part has a pack size defined, but flag use_pack_size not set"
 msgstr "Το προϊόν προμηθευτή έχει ορισμένο μέγεθος συσκευασίας, αλλά η σημαία use_pack_size δεν έχει τεθεί"
 
-#: stock/api.py:1195
+#: stock/api.py:1208
 msgid "Serial numbers cannot be supplied for a non-trackable part"
 msgstr "Δεν μπορούν να δοθούν σειριακοί αριθμοί για μη ιχνηλάσιμο προϊόν"
 
-#: stock/api.py:1440
+#: stock/api.py:1453
 msgid "Include Installed"
 msgstr "Συμπερίληψη εγκατεστημένων"
 
-#: stock/api.py:1442
+#: stock/api.py:1455
 msgid "If true, include test results for items installed underneath the given stock item"
 msgstr "Αν είναι true, περιλαμβάνει αποτελέσματα δοκιμών για είδη που είναι εγκατεστημένα κάτω από το συγκεκριμένο είδος αποθέματος"
 
-#: stock/api.py:1449
+#: stock/api.py:1462
 msgid "Filter by numeric Stock Item ID"
 msgstr "Φιλτράρισμα κατά αριθμητικό ID είδους αποθέματος"
 
-#: stock/api.py:1470
+#: stock/api.py:1483
 #, python-brace-format
 msgid "Stock item with ID {id} does not exist"
 msgstr "Είδος αποθέματος με ID {id} δεν υπάρχει"
 
-#: stock/api.py:1547
+#: stock/api.py:1557
 msgid "Include Part Variants"
 msgstr ""
 
-#: stock/api.py:1577
+#: stock/api.py:1587
 msgid "Date after"
 msgstr ""
 
-#: stock/api.py:1581
+#: stock/api.py:1591
 msgid "Date before"
 msgstr ""
 
@@ -9101,7 +9109,7 @@ msgstr "Επιλέξτε αντίστοιχο προϊόν προμηθευτή 
 msgid "Where is this stock item located?"
 msgstr "Πού βρίσκεται αυτό το είδος αποθέματος;"
 
-#: stock/models.py:1109 stock/serializers.py:1711
+#: stock/models.py:1109 stock/serializers.py:1722
 msgid "Packaging this stock item is stored in"
 msgstr "Συσκευασία στην οποία αποθηκεύεται αυτό το είδος αποθέματος"
 
@@ -9117,7 +9125,7 @@ msgstr "Είναι αυτό το είδος εγκατεστημένο σε άλ
 msgid "Serial number for this item"
 msgstr "Σειριακός αριθμός για αυτό το είδος"
 
-#: stock/models.py:1156 stock/serializers.py:1696
+#: stock/models.py:1156 stock/serializers.py:1707
 msgid "Batch code for this stock item"
 msgstr "Κωδικός παρτίδας για αυτό το είδος αποθέματος"
 
@@ -9234,7 +9242,7 @@ msgstr "Το είδος αποθέματος βρίσκεται αυτή τη σ
 msgid "Serialized stock cannot be merged"
 msgstr "Σειριακό απόθεμα δεν μπορεί να συγχωνευθεί"
 
-#: stock/models.py:2182 stock/serializers.py:1566
+#: stock/models.py:2182 stock/serializers.py:1577
 msgid "Duplicate stock items"
 msgstr "Διπλότυπα είδη αποθέματος"
 
@@ -9428,8 +9436,8 @@ msgstr "Δεν δόθηκε είδος αποθέματος"
 msgid "Quantity must not exceed available stock quantity ({q})"
 msgstr "Η ποσότητα δεν πρέπει να υπερβαίνει το διαθέσιμο απόθεμα ({q})"
 
-#: stock/serializers.py:743 stock/serializers.py:1523 stock/serializers.py:1862
-#: stock/serializers.py:1911
+#: stock/serializers.py:743 stock/serializers.py:1534 stock/serializers.py:1873
+#: stock/serializers.py:1922
 msgid "Destination stock location"
 msgstr "Τοποθεσία προορισμού αποθέματος"
 
@@ -9501,127 +9509,127 @@ msgstr "Επιλέξτε είδη αποθέματος για αλλαγή κα�
 msgid "No stock items selected"
 msgstr "Δεν επιλέχθηκαν είδη αποθέματος"
 
-#: stock/serializers.py:1165 stock/serializers.py:1258
+#: stock/serializers.py:1176 stock/serializers.py:1269
 msgid "Sublocations"
 msgstr "Υποτοποθεσίες"
 
-#: stock/serializers.py:1183
+#: stock/serializers.py:1194
 msgid "Delete Stock Items"
 msgstr ""
 
-#: stock/serializers.py:1184
+#: stock/serializers.py:1195
 msgid "Delete all stock items contained within this location"
 msgstr ""
 
-#: stock/serializers.py:1189
+#: stock/serializers.py:1200
 msgid "Delete Sublocations"
 msgstr ""
 
-#: stock/serializers.py:1190
+#: stock/serializers.py:1201
 msgid "Delete all sub-locations contained within this location"
 msgstr ""
 
-#: stock/serializers.py:1253
+#: stock/serializers.py:1264
 msgid "Parent stock location"
 msgstr "Γονική τοποθεσία αποθέματος"
 
-#: stock/serializers.py:1391
+#: stock/serializers.py:1402
 msgid "Part must be salable"
 msgstr "Το προϊόν πρέπει να είναι διαθέσιμο για πώληση"
 
-#: stock/serializers.py:1395
+#: stock/serializers.py:1406
 msgid "Item is allocated to a sales order"
 msgstr "Το είδος έχει δεσμευτεί σε εντολή πώλησης"
 
-#: stock/serializers.py:1399
+#: stock/serializers.py:1410
 msgid "Item is allocated to a transfer order"
 msgstr ""
 
-#: stock/serializers.py:1403
+#: stock/serializers.py:1414
 msgid "Item is allocated to a build order"
 msgstr "Το είδος έχει δεσμευτεί σε εντολή παραγωγής"
 
-#: stock/serializers.py:1427
+#: stock/serializers.py:1438
 msgid "Customer to assign stock items"
 msgstr "Πελάτης στον οποίο θα αποδοθούν τα είδη αποθέματος"
 
-#: stock/serializers.py:1433
+#: stock/serializers.py:1444
 msgid "Selected company is not a customer"
 msgstr "Η επιλεγμένη εταιρεία δεν είναι πελάτης"
 
-#: stock/serializers.py:1441
+#: stock/serializers.py:1452
 msgid "Stock assignment notes"
 msgstr "Σημειώσεις απόδοσης αποθέματος"
 
-#: stock/serializers.py:1451 stock/serializers.py:1739
+#: stock/serializers.py:1462 stock/serializers.py:1750
 msgid "A list of stock items must be provided"
 msgstr "Πρέπει να δοθεί λίστα ειδών αποθέματος"
 
-#: stock/serializers.py:1530
+#: stock/serializers.py:1541
 msgid "Stock merging notes"
 msgstr "Σημειώσεις συγχώνευσης αποθέματος"
 
-#: stock/serializers.py:1535
+#: stock/serializers.py:1546
 msgid "Allow mismatched suppliers"
 msgstr "Να επιτρέπονται διαφορετικοί προμηθευτές"
 
-#: stock/serializers.py:1536
+#: stock/serializers.py:1547
 msgid "Allow stock items with different supplier parts to be merged"
 msgstr "Να επιτρέπεται η συγχώνευση ειδών αποθέματος με διαφορετικά προϊόντα προμηθευτή"
 
-#: stock/serializers.py:1541
+#: stock/serializers.py:1552
 msgid "Allow mismatched status"
 msgstr "Να επιτρέπεται διαφορετική κατάσταση"
 
-#: stock/serializers.py:1542
+#: stock/serializers.py:1553
 msgid "Allow stock items with different status codes to be merged"
 msgstr "Να επιτρέπεται η συγχώνευση ειδών αποθέματος με διαφορετικούς κωδικούς κατάστασης"
 
-#: stock/serializers.py:1552
+#: stock/serializers.py:1563
 msgid "At least two stock items must be provided"
 msgstr "Πρέπει να δοθούν τουλάχιστον δύο είδη αποθέματος"
 
-#: stock/serializers.py:1619
+#: stock/serializers.py:1630
 msgid "No Change"
 msgstr "Καμία αλλαγή"
 
-#: stock/serializers.py:1657
+#: stock/serializers.py:1668
 msgid "StockItem primary key value"
 msgstr "Τιμή πρωτεύοντος κλειδιού StockItem"
 
-#: stock/serializers.py:1670
+#: stock/serializers.py:1681
 msgid "Stock item is not in stock"
 msgstr "Το είδος δεν βρίσκεται σε απόθεμα"
 
-#: stock/serializers.py:1673
+#: stock/serializers.py:1684
 msgid "Stock item is already in stock"
 msgstr "Το είδος βρίσκεται ήδη σε απόθεμα"
 
-#: stock/serializers.py:1687
+#: stock/serializers.py:1698
 msgid "Quantity must not be negative"
 msgstr "Η ποσότητα δεν πρέπει να είναι αρνητική"
 
-#: stock/serializers.py:1729
+#: stock/serializers.py:1740
 msgid "Stock transaction notes"
 msgstr "Σημειώσεις συναλλαγής αποθέματος"
 
-#: stock/serializers.py:1758
+#: stock/serializers.py:1769
 msgid "Set stock location for counted items (optional)"
 msgstr ""
 
-#: stock/serializers.py:1917
+#: stock/serializers.py:1928
 msgid "Merge into existing stock"
 msgstr "Συγχώνευση με υπάρχον απόθεμα"
 
-#: stock/serializers.py:1918
+#: stock/serializers.py:1929
 msgid "Merge returned items into existing stock items if possible"
 msgstr "Συγχώνευση επιστρεφόμενων ειδών με υπάρχοντα είδη αποθέματος, όπου είναι δυνατό"
 
-#: stock/serializers.py:1961
+#: stock/serializers.py:1972
 msgid "Next Serial Number"
 msgstr "Επόμενος σειριακός αριθμός"
 
-#: stock/serializers.py:1967
+#: stock/serializers.py:1978
 msgid "Previous Serial Number"
 msgstr "Προηγούμενος σειριακός αριθμός"
 
