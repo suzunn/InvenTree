@@ -69,6 +69,9 @@ type SearchQuery = {
  */
 function QueryResultGroup({
   searchText,
+  searchRegex,
+  searchWhole,
+  searchNotes,
   query,
   navigate,
   onClose,
@@ -76,6 +79,9 @@ function QueryResultGroup({
   onResultClick
 }: Readonly<{
   searchText: string;
+  searchRegex: boolean;
+  searchWhole: boolean;
+  searchNotes: boolean;
   query: SearchQuery;
   navigate: NavigateFunction;
   onClose: () => void;
@@ -99,7 +105,23 @@ function QueryResultGroup({
       cancelEvent(event);
 
       if (overviewUrl) {
-        const url = `${overviewUrl}?search=${searchText}`;
+        // Carry the active search modifiers across to the table view,
+        // so that it returns the same result set as the search preview
+        const params = new URLSearchParams({ search: searchText });
+
+        if (searchRegex) {
+          params.set('search_regex', 'true');
+        }
+
+        if (searchWhole) {
+          params.set('search_whole', 'true');
+        }
+
+        if (searchNotes) {
+          params.set('search_notes', 'true');
+        }
+
+        const url = `${overviewUrl}?${params.toString()}`;
 
         // Close drawer if opening in the same tab
         if (!eventModified(event)) {
@@ -116,7 +138,7 @@ function QueryResultGroup({
         });
       }
     },
-    [overviewUrl, searchText]
+    [overviewUrl, searchText, searchRegex, searchWhole, searchNotes]
   );
 
   if (query.results.count == 0) {
@@ -580,6 +602,9 @@ export function SearchDrawer({
                 <QueryResultGroup
                   key={query.model}
                   searchText={searchText}
+                  searchRegex={searchRegex}
+                  searchWhole={searchWhole}
+                  searchNotes={searchNotes}
                   query={query}
                   navigate={navigate}
                   onClose={closeDrawer}
